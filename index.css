@@ -33,6 +33,48 @@ header {
     background-color: rgb(184, 125, 17);
 }
 
+.carddv p {}
+
+.topnav {
+    overflow: hidden;
+    line-height: 150px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(184, 125, 17);
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid rgb(223, 190, 130);
+    display: flex;
+}
+
+.carddv {
+    background-color: rgb(184, 125, 17);
+}
+
 .carddv p {
     color: white;
     font-weight: bold;
@@ -100,4 +142,115 @@ a:hover {}
     font-family: FontAwesome;
     padding-right: 8px;
     font-size: 16px;
+}
+
+.active1 {
+    color: rgb(223, 190, 130);
+    border: 1px solid rgb(223, 190, 130);
+}
+
+.iconmenu i {
+    color: rgb(223, 190, 130);
+    line-height: 150px;
+    font-size: 20px;
+}
+
+.ips::placeholder {
+    color: rgb(223, 190, 130)!important;
+}
+
+.ips {
+    border: 1px solid rgb(223, 190, 130);
+}
+
+.bts {
+    background: rgb(223, 190, 130);
+    color: white;
+}
+
+
+/* Noi dung */
+
+.dichvu {
+    padding-top: 10px;
+}
+
+.camnhan {
+    padding-top: 10px;
+}
+
+
+/* dieukhac */
+
+.phuntheu {
+    background: rgb(223, 190, 130);
+}
+
+.xemthem {
+    background: rgb(230, 177, 79);
+    color: black;
+    border: 1px solid white;
+}
+
+.dieukhacimg {
+    border: none;
+    padding: 0;
+}
+
+
+/* doingu */
+
+.doingu {
+    letter-spacing: 2px;
+}
+
+
+/*  *footer*/
+
+footer {
+    margin-top: 100px;
+    background: rgb(243, 221, 179);
+}
+
+.ft1 {
+    background: none;
+}
+
+@media only screen and (max-width: 739px) {
+    .logo img {
+        float: left;
+        width: 100px !important;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav {
+        line-height: 40px;
+    }
+    .topnav a {
+        font-size: 13px !important;
+    }
+    .search {
+        display: none;
+    }
 }
