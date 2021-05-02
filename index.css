@@ -1,53 +1,103 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.color-main {
+    color: rgb(223, 190, 130);
+}
+
+
 /* Header */
-header{
+
+header {
     border-bottom: 1px solid rgb(223, 190, 130);
 }
-.menu{
+
+.menu {
     line-height: 150px;
 }
-.menu a{
+
+.menu a {
     color: rgb(184, 125, 17);
 }
-.carddv{
-    background-color:  rgb(184, 125, 17);
+
+.carddv {
+    background-color: rgb(184, 125, 17);
 }
-.carddv p{
+
+.carddv p {
     color: white;
     font-weight: bold;
     text-align: center;
 }
-.active1{
+
+.active1 {
     color: rgb(223, 190, 130);
-    border: 1px solid rgb(223, 190, 130) ;
+    border: 1px solid rgb(223, 190, 130);
 }
-.iconmenu i{
+
+.iconmenu i {
     color: rgb(223, 190, 130);
     line-height: 150px;
     font-size: 20px;
+}
 
+.ips::placeholder {
+    color: rgb(223, 190, 130)!important;
 }
-.ips::placeholder{
-    color:rgb(223, 190, 130)!important;
-    
 
+.ips {
+    border: 1px solid rgb(223, 190, 130);
 }
-.ips{
-    border: 1px solid rgb(223, 190, 130) ;
-}
-.bts{
+
+.bts {
     background: rgb(223, 190, 130);
     color: white;
 }
+
+
 /* Noi dung */
-.dichvu{
+
+.dichvu {
     padding-top: 10px;
 }
-.camnhan{
+
+.camnhan {
     padding-top: 10px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {}
+
+.navleft {
+    display: flex;
+}
+
+.navleft li {
+    margin-right: 1rem;
+}
+
+.navleft li:not(:first-child)::before {
+    content: "\f105";
+    font-family: FontAwesome;
+    padding-right: 8px;
+    font-size: 16px;
 }
