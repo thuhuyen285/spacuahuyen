@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    border-bottom: 1px solid rgb(223, 190, 130);
+}
+.menu{
+    line-height: 150px;
+}
+.menu a{
+    color: rgb(184, 125, 17);
+}
+.carddv{
+    background-color:  rgb(184, 125, 17);
+}
+.carddv p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.active1{
+    color: rgb(223, 190, 130);
+    border: 1px solid rgb(223, 190, 130) ;
+}
+.iconmenu i{
+    color: rgb(223, 190, 130);
+    line-height: 150px;
+    font-size: 20px;
+
+}
+.ips::placeholder{
+    color:rgb(223, 190, 130)!important;
+    
+
+}
+.ips{
+    border: 1px solid rgb(223, 190, 130) ;
+}
+.bts{
+    background: rgb(223, 190, 130);
+    color: white;
+}
+/* Noi dung */
+.dichvu{
+    padding-top: 10px;
+}
+.camnhan{
+    padding-top: 10px;
+}
