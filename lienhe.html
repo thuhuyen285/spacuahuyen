@@ -16,37 +16,40 @@
 <body>
 
     <!--menu logo search  -->
-    <header class="d-flex pl-5 pr-5 ">
-        <div class="col-2 justify-content-lg-center mr-5">
+    <header class="pl-5 col-12 position-fixed pr-5 ">
+        <div class=" col-2 mr-4 ">
             <a class="logo">
-                <img  width="230px" src="img/logo.jpg" alt="">
+                <img width="230px" src="img/logo.jpg" alt="">
             </a>
         </div>
-        <ul class="nav menu d-flex col-6 mx-5 ">
-            <li class="col-3">
-                <a href="#" class="active1 px-4 p-1  rounded">Thông Tin </a>
-            </li>
-            <li class="col-3">
-                <a href="#">Đào tạo nghề</a>
-            </li>
-            <li class="col-2">
-                <a href="#">Fanpage</a>
-            </li>
-            <li class="col-2">
-                <a href="#">Tin tức</a>
-            </li>
-            <li class="col-2">
-                <a href="#">Mỹ Phẩm </a>
-            </li>
-
+        <ul class="nav d-flex col-7 justify-content-center   ">
+            <div class="topnav" id="myTopnav">
+                <a href="home.html" class="">Thông tin</a>
+                <a href="daotaonghe.html">Đạo tào nghề</a>
+                <a href="#contact">Fanpage</a>
+                <a href="tintuc.html">Tin tức</a>
+                <a href="#about">Dịch vụ</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-align-justify"></i>
+                </a>
+            </div>
         </ul>
-        <a class="col-2 navbar ml-4 justify-content-end iconmenu">
-            <form class="form-inline">
-                <input class="form-control ips mr-sm-2 col-7" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn bts my-sm-0" type="submit">Search</button>
-            </form>
-        </a>
+        <form class="form-inline search col-3 ">
+            <input class="form-control mr-sm-2 col-7 ips" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0 bts" type="submit">Search</button>
+        </form>
     </header>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- Noi dung -->
 
     <section>
         <div class="container">

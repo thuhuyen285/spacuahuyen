@@ -21,14 +21,6 @@ header {
     border-bottom: 1px solid rgb(223, 190, 130);
 }
 
-.menu {
-    line-height: 150px;
-}
-
-.menu a {
-    color: rgb(184, 125, 17);
-}
-
 .carddv {
     background-color: rgb(184, 125, 17);
 }
@@ -69,6 +61,10 @@ header {
 header {
     border-bottom: 1px solid rgb(223, 190, 130);
     display: flex;
+    top: 0;
+    z-index: 99;
+    background-color:white;
+
 }
 
 .carddv {
@@ -85,7 +81,13 @@ header {
     color: rgb(223, 190, 130);
     border: 1px solid rgb(223, 190, 130);
 }
+.noidung{
+    margin-top: 150px;
+}
+section{
+    margin-top: 180px;
 
+}
 .iconmenu i {
     color: rgb(223, 190, 130);
     line-height: 150px;
@@ -221,6 +223,12 @@ footer {
         float: left;
         width: 100px !important;
     }
+    .topnav{
+
+    }
+    .topnav a{
+        /* margin-left: 50px; */
+    }
     h2 {
         font-size: 18px !important;
     }
@@ -252,5 +260,11 @@ footer {
     }
     .search {
         display: none;
+    }
+    .container{
+        margin-top: 70px;
+    }
+    section{
+        margin-top: 90px;
     }
 }
