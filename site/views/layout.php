@@ -15,23 +15,62 @@
 
     <!--menu logo search  -->
     <header class="pl-5 col-12 position-fixed pr-5 ">
+        <div class="navbar__mobile" id="navbarmb">
+            <ul>
+                <div id="navmb__off"><i class="fa fa-times"></i></div>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="">See more</a></li>
+            </ul>
+        </div>
         <div class=" col-2 mr-4 ">
             <a class="logo" href="#">
-                <img width="230px" src="views/assets/img/logo.jpg" alt="">
+                <img width="150px" src="views/assets/img/logo.jpg" alt="">
             </a>
         </div>
-        <ul class="nav d-flex col-7 justify-content-center   ">
-            <div class="topnav" id="myTopnav">
-                <a href="home.html" class="">Thông tin</a>
-                <a href="daotaonghe.html">Đạo tào nghề</a>
-                <a href="#contact">Fanpage</a>
-                <a href="tintuc.html">Tin tức</a>
-                <a href="#about">Dịch vụ</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-align-justify"></i>
-                </a>
+        
+            <div class="topnav col-7 d-flex align-items-center" id="myTopnav" class=" ">
+             <ul class="nav ">
+                <li class="topnav-item">
+                    <a href="home.html" >Thông tin
+                        <ul class="sub-menu">
+                            <li><a href="">Thẩm Mỹ Viện Linh Hương</a></li>
+                            <li><a href="">Liên Hệ</a></li>
+                            <li><a href="">Tuyển Dụng</a></li>
+                            <li><a href="">Bảng Giá Dịch Vụ</a></li>
+                        </ul>   
+                    </a> 
+                       
+                </li>
+                <li class="topnav-item">
+                     <a href="daotaonghe.html" >Đạo tào nghề</a>
+                </li>
+                <li  class="topnav-item">
+                    <a href="#contact">Fanpage</a>
+                </li>
+                <li  class="topnav-item">
+                    <a href="tintuc.html">Tin tức
+                        <ul class="sub-menu">
+                            <li><a href="">Cảm Nhận Khách Hàng</a></li>
+                            <li><a href="">Kiến Thức Làm Đẹp</a></li>
+                            <li><a href="">Tin Tức Thẩm Mỹ Viện</a></li>
+                        </ul>   
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="topnav-item">Dịch vụ</a>
+                </li>
+               <li>
+                    <a href="javascript:void(0);" class="icon topnav-item" onclick="myFunction()">
+                        <i class="fa fa-align-justify"></i>
+                    </a>
+               </li>
+               </ul>
+
+           
             </div>
-        </ul>
+       
         <form class="form-inline search col-3 ">
             <input class="form-control mr-sm-2 col-7 ips" type="search" placeholder="Search" aria-label="Search">
             <button class="btn my-2 my-sm-0 bts" type="submit">Search</button>
@@ -45,6 +84,33 @@
             } else {
                 x.className = "topnav";
             }
+        }
+        // navbar
+        var navbarmb = document.getElementById("navbarmb");
+        var navbaric = document.getElementById("navbaric");
+        var navbarrg = document.getElementById("navbarrg");
+        var nboff = document.getElementById("navmb__off");
+        navbaric.addEventListener("click", shownav);
+        navbarrg.addEventListener("click", hidenav);
+        nboff.addEventListener("click", offnav);
+
+        function shownav() {
+        if ((navbarmb.style.transform = "translateX(100%)")) {
+            navbarmb.style.transform = "translateX(0%)";
+            navbarrg.style.display = "block";
+            navbaric.style.float = "right";
+            nboff.style.display = "block";
+        }
+        }
+
+        function hidenav() {
+        navbarmb.style.transform = "translateX(100%)";
+        navbarrg.style.display = "none";
+        }
+
+        function offnav() {
+        navbarmb.style.transform = "translateX(100%)";
+        navbarrg.style.display = "none";
         }
     </script>
 

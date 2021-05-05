@@ -24,6 +24,7 @@ h2 {
 
 header {
     border-bottom: 1px solid rgb(223, 190, 130);
+    max-height: 100px;
 }
 
 .carddv {
@@ -33,8 +34,13 @@ header {
 .carddv p {}
 
 .topnav {
-    overflow: hidden;
-    line-height: 150px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.nav .topnav-item {
+    line-height: 50px;
+    position: relative;
 }
 
 .topnav a {
@@ -45,6 +51,10 @@ header {
     padding: 0px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.topnav .topnav-item:hover .sub-menu {
+    display: block;
 }
 
 .topnav a:hover {
@@ -58,6 +68,37 @@ header {
 
 .topnav .icon {
     display: none;
+}
+
+.sub-menu {
+    width: 250px;
+    background-color: rgb(223, 190, 130);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    border-radius: 5px;
+    display: none;
+}
+
+.sub-menu li {
+    height: 40px;
+    line-height: 40px;
+}
+
+.sub-menu li:hover {
+    background: white;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+.sub-menu li:hover a {}
+
+.navmobile {
+    width: 60%;
+    display: fixed;
+    background-color: white;
+    height: 100%;
+    z-index: 1000;
 }
 
 
@@ -286,5 +327,75 @@ footer {
     .content img {
         height: auto !important;
         width: 100% !important;
+    }
+    /* menu */
+    .menu {
+        display: none;
+    }
+    #navmb__off {
+        display: none;
+        float: right;
+        font-weight: bold;
+        margin-right: 25px;
+        font-size: 16pt;
+    }
+    .navbar__icon {
+        display: block;
+        float: right;
+        margin: 17px 20px;
+        z-index: 4;
+        right: 0;
+        position: fixed;
+        color: black;
+        cursor: pointer;
+        z-index: 6;
+    }
+    .navbar__icon i {
+        font-size: 32px;
+    }
+    .navbar__mobile {
+        display: block;
+        width: 57%;
+        background-color: white;
+        height: 1000px;
+        position: fixed;
+        z-index: 6;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+        transition: all 0.5s;
+    }
+    .navbar__mobile ul {
+        list-style: none;
+        padding-top: 5px;
+    }
+    .navbar__mobile ul li {
+        margin: 30px 0;
+    }
+    .navbar__mobile ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navbar__rgba {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        display: none;
+        animation: rgba 1s ease;
+    }
+    @keyframes rgba {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 }
