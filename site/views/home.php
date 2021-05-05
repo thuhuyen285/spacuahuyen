@@ -152,7 +152,7 @@
                                     <div class="card carddv">
                                         <div class="card-body text-center">
                                             <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
-                                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÀY, MÔI, MÍ Ở LINH HƯƠNG CÓ ĐẸP KHÔNG?</a>
+                                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
                                         </div>
                                     </div>
                                 </div>';

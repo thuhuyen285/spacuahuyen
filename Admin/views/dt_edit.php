@@ -26,11 +26,11 @@
                         <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=update">
                         <div class="form-group ">
                                 <label for="exampleInputUsername">Tiêu đề </label>
-                                <input type="text" value="<?=$row['tieude']?>" class="form-control" id="exampleInputUsername" name="tieude"  >
+                                <input type="text" value="<?=$row['tieude']?>" class="form-control" id="exampleInputUsername" name="tieude" required >
                             </div>
                             <div class="form-group">
                                 <label for="editor1">Nội dung</label>
-                                <textarea type="text" class="form-control-file" id="editor1" name="noidung"  ><?=$row['noidung']?></textarea>
+                                <textarea type="text" class="form-control-file" id="editor1" name="noidung"  required><?=$row['noidung']?></textarea>
                             </div>
                             <div class="form-group">
                                 <img src="<?=PATH_IMG.$row['urlHinh']?>" class="mb-3" width="300" height="200" alt="">
@@ -43,7 +43,8 @@
                             </div>
                            
                             <div class="form-group">
-                            <select class="form-control" name="idNSX" placeholder="Mã NSX"> 
+                            <label for="editor1">Chọn Loại</label>
+                            <select class="form-control" name="idNSX" placeholder="Mã NSX" required> 
                                 <?php 
                                    					  $datadm = array("1"=>"Dịch Vụ Nổi Bật","2"=>"Kiến Thức Làm Đẹp","3"=>"Cảm Nhận Khách Hàng","4"=>"Tin Tức Thẩm Mỹ Viện","5"=>"Tin Tức Nổi Bật");
 
