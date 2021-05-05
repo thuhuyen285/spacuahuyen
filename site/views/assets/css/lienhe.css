@@ -1,0 +1,12 @@
+.hotline {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.hotline span {
+    color: rgb(223, 190, 130);
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -15,25 +15,23 @@ class dienthoai {
         }
      }
      function index(){
-      if (isset($_GET['pagenum'])==true) $pagenum = $_GET['pagenum'];
-         settype($pagenum,'int');
-         if($pagenum<=0) $pagenum=1;
-         $pagesize = PAGE_SIZE;
-         if (isset($_POST['pagenum'])&&($_POST['pagesize'])){
-            $pagenum = $_POST['pagenum'];
-         }
-         $list = $this->model->getdienthoaitheoloai( $pagenum, $pagesize);
-         $totalrows = $this->model->demdienthoai();
-         $baseurl = ADMIN_URL . "?ctrl=dienthoai&act=index";
-         $totalpages =  ceil($totalrows/$pagesize);
-         $links = $this->model->taolinks($baseurl, $pagenum, $pagesize, $totalrows);
-         $link = $this->model->taolink($baseurl, $pagenum, $pagesize, $totalrows);   
+        
+        if (isset($_GET['Page'])) $CurrentPage = $_GET['Page']; else $CurrentPage = 1;
+       
+        $TotalProduct = $this->model->countAllBlog();
+
+        if($TotalProduct == 0) $TotalProduct =1;
+
+        $list = $this->model-> GetProductList($CurrentPage);
+
+
+        $Pagination =  $this->model->Page($TotalProduct, $CurrentPage);
+        
          $pase_tittle = "Danh sách sản phẩm";
          $pase_file = "views/dt_index.php";
          require_once "layout.php";
      }
       function addnew(){
-         $list = $this->model->getnhasanxuat();
          $pase_tittle = "Thêm điện thoại";
          $pase_file = "views/dt_addnew.php";
          require_once "layout.php";
@@ -42,7 +40,7 @@ class dienthoai {
           $tieude =$_POST['tieude'];
           $noidung =$_POST['noidung'];
           $urlHinh =$_POST['urlHinh'];
-          $ngaytao =$_POST['ngaytao'];
+          $ngaytao =  date("Y-m-d h:i:s");
           $MoTa =$_POST['MoTa'];
           $idNSX =$_POST['idNSX'];
           $tieude = trim(strip_tags($tieude));
@@ -54,7 +52,6 @@ class dienthoai {
           header("location: index.php?ctrl=dienthoai&act=index");
     }
      function edit(){
-         $list = $this->model->getnhasanxuat();
          $idDT = $_GET['id'];
          settype($idDT,"int");
          $row = $this->model->getchitiet($idDT);
@@ -67,7 +64,6 @@ class dienthoai {
          $tieude =$_POST['tieude'];
          $noidung =$_POST['noidung'];
          $urlHinh =$_POST['urlHinh'];
-         $ngaytao =$_POST['ngaytao'];
          $MoTa =$_POST['MoTa'];
          $idNSX =$_POST['idNSX'];
          $tieude = trim(strip_tags($tieude));
@@ -75,7 +71,7 @@ class dienthoai {
          $urlHinh = trim(strip_tags($urlHinh));
           $MoTa = trim(strip_tags($MoTa));
           settype($idNSX,"int");
-         $this->model->updates($idDT,$tieude,$noidung,$urlHinh,$ngaytao,$MoTa,$idNSX);
+         $this->model->updates($idDT,$tieude,$noidung,$urlHinh,$MoTa,$idNSX);
          header("location: index.php?ctrl=dienthoai");
      }
      function delete(){
