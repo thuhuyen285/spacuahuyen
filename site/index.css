@@ -12,9 +12,243 @@
     width: 100%;
     object-fit: cover;
 } */
+<<<<<<< HEAD
+
+.color-main {
+    color: rgb(223, 190, 130);
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid rgb(223, 190, 130);
+}
+
+.carddv {
+    background-color: rgb(184, 125, 17);
+}
+
+.carddv p {}
+
+.topnav {
+    overflow: hidden;
+    line-height: 120px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(184, 125, 17);
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid rgb(223, 190, 130);
+    display: flex;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+.carddv {
+    background-color: rgb(184, 125, 17);
+}
+
+.carddv p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.active1 {
+    color: rgb(223, 190, 130);
+    border: 1px solid rgb(223, 190, 130);
+}
+
+
+.span{
+    color: red;
+    font-weight: 500;
+}
+.noidung {
+    margin-top: 124px;
+}
+
+section {
+    margin-top: 170px;
+}
+
+.iconmenu i {
+    color: rgb(223, 190, 130);
+    line-height: 150px;
+    font-size: 20px;
+}
+
+.ips::placeholder {
+    color: rgb(223, 190, 130)!important;
+}
+
+.ips {
+    border: 1px solid rgb(223, 190, 130);
+}
+
+.bts {
+    background: rgb(223, 190, 130);
+    color: white;
+}
+
+
+/* Noi dung */
+
+.dichvu {
+    padding-top: 10px;
+}
+
+.camnhan {
+    padding-top: 10px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {}
+
+.navleft {
+    display: flex;
+}
+
+.navleft li {
+    margin-right: 1rem;
+}
+
+.navleft li:not(:first-child)::before {
+    content: "\f105";
+    font-family: FontAwesome;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.active1 {
+    color: rgb(223, 190, 130);
+    border: 1px solid rgb(223, 190, 130);
+}
+
+.iconmenu i {
+    color: rgb(223, 190, 130);
+    line-height: 150px;
+    font-size: 20px;
+}
+
+.ips::placeholder {
+    color: rgb(223, 190, 130)!important;
+}
+
+.ips {
+    border: 1px solid rgb(223, 190, 130);
+}
+
+.bts {
+    background: rgb(223, 190, 130);
+    color: white;
+}
+
+
+/* Noi dung */
+
+.dichvu {
+    padding-top: 10px;
+}
+
+.camnhan {
+    padding-top: 10px;
+}
+
+
+/* dieukhac */
+
+.phuntheu {
+    background: rgb(223, 190, 130);
+}
+
+.xemthem {
+    background: rgb(230, 177, 79);
+    color: black;
+    border: 1px solid white;
+}
+
+.dieukhacimg {
+    border: none;
+    padding: 0;
+}
+
+
+/* doingu */
+
+.doingu {
+    letter-spacing: 2px;
+}
+
+
+/*  *footer*/
+
+footer {
+    margin-top: 100px;
+    background: rgb(243, 221, 179);
+}
+
+.ft1 {
+    background: none;
+}
+
+.content {
+    max-width: 100%;
+}
+
+.content img {
+    max-width: 100%;
+    margin: 0 auto !important;
+    display: block;
+    float: none !important;
+    height: auto;
+}
+
+@media only screen and (max-width: 739px) {
+    .logo img {
+        float: left;
+        width: 100px !important;
+=======
     
     .color-main {
         color: rgb(223, 190, 130);
+>>>>>>> 8b2e21059bf87497467547e14d05188012027619
     }
     /* Header */
     
