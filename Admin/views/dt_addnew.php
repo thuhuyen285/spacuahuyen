@@ -13,34 +13,36 @@
 
       			<div class="col-md-12">
       					<h4 class="m-b-lg"> Thêm bài viết </h4>
-                        <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=store">
+                        <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=store" enctype="multipart/form-data">
                             <div class="form-group ">
                                 <label for="exampleInputUsername">Tiêu đề</label>
-                                <input type="text" class="form-control" id="exampleInputUsername" name="tieude" placeholder="Tiêu đề">
+                                <input type="text" class="form-control" id="exampleInputUsername" name="tieude" placeholder="Tiêu đề" required>
                             </div>
                             <div class="form-group">
                                 <label for="editor1">Nội dung</label>
-                                <textarea type="text" class="form-control-file" id="editor1" name="noidung" type="text" placeholder="Nội dung" ></textarea>
+                                <textarea type="text" class="form-control-file" id="editor1" name="noidung" type="text" placeholder="Nội dung" required></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlFile1">Hình ảnh</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="urlHinh"  >
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="urlHinh[]" required multiple>
                             </div>
                             <div class="form-group">
                                 <label for="editor1">Mô tả</label>
                                 <textarea type="text" class="form-control-file" id="editor1" name="MoTa" placeholder="Mô tả" ></textarea>
                             </div>
+                     
                             <div class="form-group">
-                                <label for="editor1">Ngày tạo</label>
-                                <input type="date" class="form-control-file" id="exampleFormControlFile1" name="ngaytao"  >
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleForm">Chọn mã NSX</label>
-                                <select class="form-control" name="idNSX" placeholder="Mã NSX">    
-                                    <option value="">Chọn Mã NSX</option>
-                                    <?php  foreach($list as $value) {?>
-                                    <option value="<?=$value['idNSX']?>"><?=$value['TenNSX']?></option>	
-                                    <?php } ?>
+                                <label for="exampleForm">Chọn loại</label>
+                                <select class="form-control" name="idNSX" placeholder="Mã NSX" required>    
+                                    <?php 
+                            					  $datadm = array("1"=>"Dịch Vụ Nổi Bật","2"=>"Kiến Thức Làm Đẹp","3"=>"Cảm Nhận Khách Hàng","4"=>"Tin Tức Thẩm Mỹ Viện","5"=>"Tin Tức Nổi Bật");
+        
+                                    ?>
+                                    <?php
+                                    foreach ($datadm as $key => $value) {
+                                       echo '<option value='.$key.'>'.$value.'</option>';
+                                    }
+                                ?>
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-primary" name="nutsave" > THÊM BÀI VIẾT </button>

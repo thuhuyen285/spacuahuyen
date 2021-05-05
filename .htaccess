@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule ^$ site/
+RewriteRule ^dang-nhap-dang-ky$ /spahuyen/site/?act=loginregister [L]
+RewriteRule ^doi-mat-khau$ /spahuyen/site/?act=changepass [L]
+RewriteRule ^dang-xuat$ /spahuyen/site/?act=logout [L]
+RewriteRule ^gio-hang$ /spahuyen/site/?act=cartview [L]
+RewriteRule ^thanh-toan$ /spahuyen/site/?act=checkout [L]
+RewriteRule ^xac-nhan-gio-hang$ /spahuyen/site/?act=savebill [L]
+RewriteRule ^cam-on$ /spahuyen/site/?act=thankyou [L]
+RewriteRule ^quen-mat-khau$ /spahuyen/site/?act=forgotpass [L]
+RewriteRule ^thanh-toan-thanh-cong/$ /spahuyen/site/?act=ttthanhcong [L]
+
+RewriteRule ^bai-viet/([a-zA-Z0-9-]+)$ /spahuyen/site/?act=detail&id=$2&slug=$1 [L]
+RewriteRule ^nsx/([a-zA-Z0-9-]+)$ /spahuyen/site/?act=cat&id=$2&slug=$1 [L]
+RewriteRule ^xoa-khoi-gio/(.*)$ /spahuyen/site/?act=cart&what=remove&id=$1 [L]
