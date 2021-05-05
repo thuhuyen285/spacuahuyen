@@ -1,8 +1,11 @@
 <?php
-require_once "models/model_dienthoai.php"; //nạp model để có các hàm tương tác db
+
+require_once "models/model_dienthoai.php"; //nạp model để có các hàm tương tác dbr
+require_once "../lib/myfunctions.php";
 class dienthoai {
      function __construct()   {
         $this->model = new model_dienthoai();
+        $this->lib = new lib();
         $act = "index";//chức năng mặc định
         if(isset($_GET["act"])==true) $act=$_GET["act"];//tiếp nhận chức năng user request
         switch ($act) {    
@@ -39,16 +42,18 @@ class dienthoai {
      function store(){
           $tieude =$_POST['tieude'];
           $noidung =$_POST['noidung'];
-          $urlHinh =$_POST['urlHinh'];
+          $urlHinh =$_FILES['urlHinh'];
           $ngaytao =  date("Y-m-d h:i:s");
           $MoTa =$_POST['MoTa'];
           $idNSX =$_POST['idNSX'];
           $tieude = trim(strip_tags($tieude));
+          $slug = $this->lib->slug($_POST['tieude']);
           $noidung = trim(strip_tags($noidung));
-          $urlHinh = trim(strip_tags($urlHinh));
+        
+          $urlHinh =$this->lib->checkUpLoadMany($urlHinh);
           $MoTa = trim(strip_tags($MoTa));
           settype($idNSX,"int");
-          $this->model->stores($tieude,$noidung,$urlHinh,$ngaytao,$MoTa,$idNSX);
+          $this->model->stores($tieude,$slug,$noidung,$urlHinh,$ngaytao,$MoTa,$idNSX);
           header("location: index.php?ctrl=dienthoai&act=index");
     }
      function edit(){
@@ -63,15 +68,17 @@ class dienthoai {
          $idDT = $_POST['idDT'];
          $tieude =$_POST['tieude'];
          $noidung =$_POST['noidung'];
-         $urlHinh =$_POST['urlHinh'];
+         $urlHinh =$_FILES['urlHinh'];
          $MoTa =$_POST['MoTa'];
          $idNSX =$_POST['idNSX'];
          $tieude = trim(strip_tags($tieude));
+         $slug = $this->lib->slug($_POST['tieude']);
          $noidung = trim(strip_tags($noidung));
-         $urlHinh = trim(strip_tags($urlHinh));
+         $urlHinh =$this->lib->checkUpLoadMany($urlHinh);
           $MoTa = trim(strip_tags($MoTa));
           settype($idNSX,"int");
-         $this->model->updates($idDT,$tieude,$noidung,$urlHinh,$MoTa,$idNSX);
+    
+         $this->model->updates($idDT,$tieude,$slug,$noidung,$urlHinh,$MoTa,$idNSX);
          header("location: index.php?ctrl=dienthoai");
      }
      function delete(){

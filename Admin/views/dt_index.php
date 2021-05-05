@@ -65,7 +65,7 @@
 								<?php
 							}?>
 								<li class="page-item">
-								<?=$link?> 
+								<?=$Pagination?> 
 								</a>
 								</li>
 							</ul>

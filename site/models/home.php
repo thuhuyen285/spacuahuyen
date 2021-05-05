@@ -4,9 +4,25 @@
  use SendGrid\Mail\TypeException;
 class Model_home extends model_system{
     
-    function getNewsSpecial(){
+    function getNewsSpecial()
+    {
         $sql = "SELECT * FROM dienthoai WHERE idNSX=5 ORDER BY idDT DESC LIMIT 6";
         return $this->result1(0,$sql);
+    }
+
+    function getServiceSpecial()
+    {
+        $sql = "SELECT * FROM dienthoai WHERE idNSX=1 ORDER BY idDT DESC LIMIT 9";
+        return $this->result1(0,$sql);
+    }
+    function getCustomerFeel()
+    {
+        $sql = "SELECT * FROM dienthoai WHERE idNSX=3 ORDER BY idDT DESC LIMIT 9";
+        return $this->result1(0,$sql);
+    }
+    function getOnePro($slug){   
+        $sql = "SELECT * FROM dienthoai WHERE slug=?";
+        return $this->result1(1,$sql,$slug);
     }
    public function Page (int $TotalProduct, int $CurrentPage)
    {

@@ -23,7 +23,7 @@
       		<div class="row">
       			<div class="col-md-12">
       					<h4 class="m-b-lg"> Sửa bài viết</h4>
-                        <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=update">
+                        <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=update" enctype="multipart/form-data">
                         <div class="form-group ">
                                 <label for="exampleInputUsername">Tiêu đề </label>
                                 <input type="text" value="<?=$row['tieude']?>" class="form-control" id="exampleInputUsername" name="tieude" required >
@@ -35,7 +35,7 @@
                             <div class="form-group">
                                 <img src="<?=PATH_IMG.$row['urlHinh']?>" class="mb-3" width="300" height="200" alt="">
                                 <label for="exampleFormControlFile1">Hình ảnh</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="urlHinh" value="<?=$row['urlHinh']?>" >
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="urlHinh[]" value="<?=$row['urlHinh']?>" multiple>
                             </div>
                             <div class="form-group">
                                 <label for="editor1">Mô tả</label>

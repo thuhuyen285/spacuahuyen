@@ -1,25 +1,25 @@
 <?php
  require_once '../systems/database.php';
  class model_dienthoai extends model_system  {
-      function stores($tieude,$noidung, $urlHinh,$ngaytao,$MoTa,$idNSX){  //hàm lưu 1 record vào table
-          $sql="INSERT INTO dienthoai (tieude, noidung, urlHinh,ngaytao, MoTa,idNSX) 
-          VALUES ('$tieude','$noidung', '$urlHinh','$ngaytao', '$MoTa', '$idNSX')";
+      function stores($tieude,$slug,$noidung, $urlHinh,$ngaytao,$MoTa,$idNSX){  //hàm lưu 1 record vào table
+          $sql="INSERT INTO dienthoai (tieude,slug, noidung, urlHinh,ngaytao, MoTa,idNSX) 
+          VALUES ('$tieude','$slug','$noidung', '$urlHinh','$ngaytao', '$MoTa', '$idNSX')";
           $this->exec1($sql);
       }
-      function updates($idDT,$tieude,$noidung, $urlHinh,$MoTa,$idNSX){ //hàm cập nhật 1 record vào table
-        if( $urlHinh != ''){
-          $sql="UPDATE dienthoai set tieude='$tieude',noidung ='$noidung',urlHinh ='$urlHinh',MoTa ='$MoTa',idNSX ='$idNSX' where idDT = $idDT";
+      function updates($idDT,$tieude,$slug,$noidung, $urlHinh,$MoTa,$idNSX){ //hàm cập nhật 1 record vào table
+        if($urlHinh == ''){
+          $sql="UPDATE dienthoai set tieude='$tieude',slug='$slug',noidung ='$noidung',MoTa ='$MoTa',idNSX ='$idNSX' where idDT = $idDT";
         }else{
-          $sql="UPDATE dienthoai set tieude='$tieude',noidung ='$noidung',MoTa ='$MoTa',idNSX ='$idNSX' where idDT = $idDT";
+          $sql="UPDATE dienthoai set tieude='$tieude',slug='$slug',noidung ='$noidung',urlHinh ='$urlHinh',MoTa ='$MoTa',idNSX ='$idNSX' where idDT = $idDT";
+         
         }
-        
         $this->exec1($sql);
       }
       function deletes($idDT){  //hàm xóa 1 record khỏi table
         $sql = "DELETE from dienthoai where idDT = '$idDT'";
         $this->exec1($sql);
     }
-  
+
 
     function countAllBlog()
     {
@@ -30,7 +30,7 @@
       $sql = "SELECT * FROM dienthoai WHERE idDT != 0";
       if ($CurrentPage !== 0)
       {
-          $sql .= " GROUP BY idDT LIMIT ".($CurrentPage - 1) * PAGE_SIZE.", ".PAGE_SIZE;
+          $sql .= " GROUP BY idDT ORDER BY idDT DESC LIMIT ".($CurrentPage - 1) * PAGE_SIZE.", ".PAGE_SIZE;
       }
       return $this->result1(0,$sql);
   }
@@ -91,7 +91,7 @@
       }
       public function Page (int $TotalProduct, int $CurrentPage)
     {
-        $LimitPage = 5; // 5 sản phẩm 2 trang
+        $LimitPage = 10; // 5 sản phẩm 2 trang
 
         $PagedHTML = ''; // khởi tạo
 

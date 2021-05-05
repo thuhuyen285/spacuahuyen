@@ -13,7 +13,7 @@
 
       			<div class="col-md-12">
       					<h4 class="m-b-lg"> Thêm bài viết </h4>
-                        <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=store">
+                        <form method="post" class="p-5 border" action="?ctrl=dienthoai&act=store" enctype="multipart/form-data">
                             <div class="form-group ">
                                 <label for="exampleInputUsername">Tiêu đề</label>
                                 <input type="text" class="form-control" id="exampleInputUsername" name="tieude" placeholder="Tiêu đề" required>
@@ -24,7 +24,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlFile1">Hình ảnh</label>
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="urlHinh" required >
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="urlHinh[]" required multiple>
                             </div>
                             <div class="form-group">
                                 <label for="editor1">Mô tả</label>

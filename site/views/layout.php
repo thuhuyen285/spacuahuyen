@@ -16,7 +16,7 @@
     <!--menu logo search  -->
     <header class="pl-5 col-12 position-fixed pr-5 ">
         <div class=" col-2 mr-4 ">
-            <a class="logo">
+            <a class="logo" href="#">
                 <img width="230px" src="views/assets/img/logo.jpg" alt="">
             </a>
         </div>

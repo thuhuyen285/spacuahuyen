@@ -61,7 +61,7 @@ class lib{
     }
     function slug($str)
     {
-        $str = strtolower($str) ;
+        // $str = strtolower($str) ;
         if(!$str) return false;
             $unicode = array(
             'a'=>'á|à|ả|ã|ạ|ă|ắ|ằ|ẳ|ẵ|ặ|â|ấ|ầ|ẩ|ẫ|ậ',
@@ -81,8 +81,9 @@ class lib{
                 $arr=explode("|",$codau);
                 $str = str_replace($arr,$khongdau,$str);
         }
-        $str = str_replace(["%","$","*","&","?","!","#","@"],"",$str);
+        $str = str_replace(["(",")","%","$","*","&","?","!","#","@","^","+","=",":",",",".","/","|",";","'",'"',"-"],"",$str);
         $str = trim($str);
+        $str = strtolower($str);
         $str = preg_replace('/\s+/', ' ', $str);
         $str = str_replace(" ","-",$str);
         return $str;

@@ -12,54 +12,21 @@
             </h2>
             <div class="text-center"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
             <div class="row ">
-                <div class="col-sm-4 mt-4 ">
-                    <div class="card carddv">
-                        <div class="card-body text-center">
-                            <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-4 ">
-                    <div class="card carddv">
-                        <div class="card-body text-center">
-                            <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-4 ">
-                    <div class="card carddv">
-                        <div class="card-body text-center">
-                            <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-4 ">
-                    <div class="card carddv">
-                        <div class="card-body text-center">
-                            <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-4 ">
-                    <div class="card carddv">
-                        <div class="card-body text-center">
-                            <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-4 ">
-                    <div class="card carddv">
-                        <div class="card-body text-center">
-                            <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                        foreach ($getServiceSpecial as $row) {
+                            $link = ROOT_URL."/bai-viet/".$row['slug'];
+                           echo '<div class="col-sm-4 mt-4 ">
+                                    <div class="card carddv">
+                                        <div class="card-body text-center">
+                                            <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
+                                            <a href="'.$link.'" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
+                                        </div>
+                                    </div>
+                                </div>';
+                        }
+                    
+                    ?>
+               
             </div>
         </div>
 
@@ -69,30 +36,20 @@
                 <h2 class="text-center mt-5 "> CẢM NHẬN KHÁCH HÀNG</h2>
                 <div class="text-center"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
                 <div class="row">
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                                <a href="#" class="card-text pt-2 text-white font-weight-bold mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                                <a href="#" class="card-text pt-2 text-white font-weight-bold mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/sp1.jpg" width="100%" alt="">
-                                <a href="#" class="card-text pt-2 text-white font-weight-bold mt-3">PHUN MÔI HIỆU ỨNG SON LÌ 3D</a>
-                            </div>
-                        </div>
-                    </div>
+                <?php
+                        foreach ($getCustomerFeel as $row) {
+                            $link = ROOT_URL."/bai-viet/".$row['slug'];
+                            echo '<div class="col-sm-4 mt-4 ">
+                                     <div class="card carddv">
+                                         <div class="card-body text-center">
+                                             <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
+                                             <a href="'.$link.'" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
+                                         </div>
+                                     </div>
+                                 </div>';
+                        }
+                    
+                    ?>
                 </div>
             </div>
 
@@ -148,58 +105,20 @@
                 <div class="row ">
                     <?php
                         foreach ($getNewsSpecial as $row) {
-                           echo '<div class="col-sm-4 mt-4 ">
-                                    <div class="card carddv">
-                                        <div class="card-body text-center">
-                                            <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
-                                            <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
-                                        </div>
-                                    </div>
-                                </div>';
+                            $link = ROOT_URL."/bai-viet/".$row['slug'];
+                            echo '<div class="col-sm-4 mt-4 ">
+                                     <div class="card carddv">
+                                         <div class="card-body text-center">
+                                             <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
+                                             <a href="'.$link.'" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
+                                         </div>
+                                     </div>
+                                 </div>';
                         }
                     
                     ?>
                     
-                    <!-- <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/tt3.jpg" width="100%" height="270px" alt="">
-                                <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">BẢNG GIÁ DỊCH VỤ THẨM MỸ SPA LINH HƯƠNG</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/tt3.jpg" width="100%" height="270px" alt="">
-                                <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÀY, MÔI, MÍ Ở LINH HƯƠNG CÓ ĐẸP KHÔNG?</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/tt3.jpg" width="100%" height="270px" alt="">
-                                <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÀY, MÔI, MÍ Ở LINH HƯƠNG CÓ ĐẸP KHÔNG?</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/tt3.jpg" width="100%" height="270px" alt="">
-                                <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÀY, MÔI, MÍ Ở LINH HƯƠNG CÓ ĐẸP KHÔNG?</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mt-4 ">
-                        <div class="card carddv">
-                            <div class="card-body text-center">
-                                <img src="views/assets/img/tt3.jpg" width="100%" height="270px" alt="">
-                                <a href="#" class="pt-2 text-white font-weight-bold card-text mt-3">PHUN MÀY, MÔI, MÍ Ở LINH HƯƠNG CÓ ĐẸP KHÔNG?</a>
-                            </div>
-                        </div>
-                    </div> -->
+        
                 </div>
             </div>
 
