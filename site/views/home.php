@@ -160,10 +160,10 @@
                 <p>Các cơ sở vật chất, không gian trong và ngoài phòng khám thẩm mỹ viện Linh Hương luôn được chú trọng đến từng chi tiết nhỏ, tạo nên sự khác biệt về đăng cấp sang trong. Về trang thiết bị máy móc và công nghệ, Linh Hương sẽ luôn cập nhật
                     những dòng công nghệ mới, tiên tiến nhất nhằm mang lại hiệu quả tốt nhất cho quí Khách hàng. Công dụng và hiệu quả của sản phẩm còn tùy vào cơ địa của mỗi người.</p>
                 <h5>► Địa chỉ các chi nhánh thẩm mỹ viện Linh Hương:</h5>
-                <ul>
+                <ul class="ml-3">
                     <a><b> ♦ BÌNH DƯƠNG :</b> 37 Nguyễn Văn Tiết - Lái Thiêu- Thuận An - Bình Dương</a> <br>
-                    <a><b> ♦ BÌNH DƯƠNG :</b> 37 Nguyễn Văn Tiết - Lái Thiêu- Thuận An - Bình Dương</a>
-
+                    <a><b> ♦ TP.HCM :</b> 666 Đường Hưng Phú- Phường 10- Quận 8- Hồ Chí Minh</a> <br>
+                    <a><b> ♦ HẢI PHÒNG :</b> 147 Tổ 1- TT An Dương- Hải Phòng</a>
                 </ul>
                 <div class="row">
                     <div class="col-sm-3 col-6  p-0">

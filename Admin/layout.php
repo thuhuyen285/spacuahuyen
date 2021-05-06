@@ -13,7 +13,7 @@
   <!-- icon -->
   <link rel="icon" href="views/img/log.png">
   <!-- end linking -->
-  <title>Thế Giới điện thoại - admin</title>
+  <title>Thẩm mỹ Spa Linh Hương - Admin</title>
 </head>
 <body>
 <!-- start admin -->
