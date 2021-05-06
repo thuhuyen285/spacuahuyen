@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="views/assets/css/index.css">
     <link rel="shortcut icon" type="image/png" href="/icon.png"/>
-
+<style>
+    .iconmenu2 i{
+    color: rgb(223, 190, 130);
+    font-size: 20px;
+}
+</style>
 </head>
 
 <body>
@@ -35,6 +40,7 @@
                     Thông Tin
                     </a>
                     <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="<?=ROOT_URL.'/Trang-chu-tham-my-vien-Spa-Linh-Hương'?>">Trang chủ</a>
                     <a class="dropdown-item" href="<?=ROOT_URL.'/gioi-thieu'?>">Thẩm Mỹ Viện Linh Hương</a>
                     <a class="dropdown-item" href="<?=ROOT_URL.'/bang-gia'?>">Bảng Giá Dịch Vụ</a>
                     </div>
@@ -60,9 +66,13 @@
                 </li>
 
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <form class="form-inline iconmenu2 my-2 my-lg-0">
+                    <a class="nav-link" href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc"> 
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="https://linhhuongspa.com">
+                    <i class="fa fa-google ml-2 " aria-hidden="true"></i> </a>
+
+                    <a><i class="fa fa-twitter ml-3 mr-5" aria-hidden="true"></i> </a>
                 </form>
             </div>
             </nav>

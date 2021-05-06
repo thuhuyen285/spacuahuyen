@@ -1,7 +1,10 @@
 <?php
 
 require_once "models/model_dienthoai.php"; //nạp model để có các hàm tương tác dbr
+require_once "models/model_dienthoai.php"; //nạp model để có các hàm tương tác dbr
 require_once "../lib/myfunctions.php";
+$tieude =$_POST['tieude'];
+
 class dienthoai {
      function __construct()   {
         $this->model = new model_dienthoai();
