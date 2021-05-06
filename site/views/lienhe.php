@@ -1,7 +1,7 @@
 <section>
         <div class="container">
-            <div class="row">
-                <div class="">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-11">
                     <ul itemscope="" class="navleft" itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs">
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                             <i class="fa fa-home" aria-hidden="true"></i>

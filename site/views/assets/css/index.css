@@ -342,7 +342,7 @@ footer {
     }
     .content img {
         height: auto !important;
-        width: 100% !important;
+        max-width: 100%;
     }
     .navbar-nav {
         background-color: rgb(230, 177, 79);
@@ -413,7 +413,8 @@ footer {
     }
     .content img {
         height: auto !important;
-        width: 100% !important;
+        max-width: 100%;
+        width: 100%;
     }
     .navbar-nav {
         background-color: rgb(230, 177, 79);
