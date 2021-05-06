@@ -33,7 +33,7 @@ require_once "models/home.php";
          $getNewsSpecial = $this->model->getNewsSpecial();
          $getServiceSpecial  = $this->model->getServiceSpecial();
          $getCustomerFeel = $this->model->getCustomerFeel();
-        $page_title ="Thẩm mỹ viện Linh Hương";
+        $page_title ="TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG";
         $viewFile = "views/home.php";
         require_once "views/layout.php";  
      }   

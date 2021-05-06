@@ -14,7 +14,7 @@
                                 <meta itemprop="position" content="2"> </li>
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                 <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="" title="Liên Hệ">
-                                    <span itemprop="name" class="text-dark"> Bảng Giá Dịch Vụ Làm Đẹp Tại Thẩm Mỹ Viện Linh Hương</span>
+                                    <span itemprop="name" class="text-dark"> Bảng Giá Dịch Vụ Làm Đẹp Tại Trung Tâm Thẩm Mỹ SPA Linh Hương</span>
                                 </a>
                                 <meta itemprop="position" content="3">
                             </li>
@@ -117,7 +117,7 @@
 
                             <h2 class="mt-3"><strong>2.Mí mắt </strong></h2>
                                     <img class="pt-3 pb-3" src="<?=PATH_IMG?>mimat.PNG" alt="">
-                                    ► Quy trình phun mí mở tròng  ở thẩm mỹ viện Linh Hương : <br>
+                                    ► Quy trình phun mí mở tròng  ở Trung Tâm Thẩm Mỹ SPA Linh Hương : <br>
                                     <div class="ml-4 mb-3">
                                     <b>Bước 1:</b> Xem hiện trạng mí mắt và tư vấn kỹ càng cho khách hàng.<br>
                                     <div class="ml-4 ">
@@ -253,7 +253,7 @@
                                 <img class="pb-3"  src="<?=PATH_IMG?>filler.jpg" alt="">
                             <div class="container text-lg-center mt-5">
 
-                            <h6>Để biết được các thông tin chính xác nhất về thẩm mỹ viện Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</h6>
+                            <h6>Để biết được các thông tin chính xác nhất về Trung Tâm Thẩm Mỹ SPA Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</h6>
 
                                <a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc" class="text-primary"> 
                                ► Fanpage: https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc </a><br> <br>

@@ -28,7 +28,7 @@
                     </div>
                     <div class="container text-lg-center mt-5">
 
-                    <h6>Để biết được các thông tin chính xác nhất về thẩm mỹ viện Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</h6>
+                    <h6>Để biết được các thông tin chính xác nhất về Trung Tâm Thẩm Mỹ SPA Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</h6>
 
                     ► Link Fanpage:<a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc">tại đây</a> <br> <br>
                     <img src="img/logo.jpg" alt="">
