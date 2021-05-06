@@ -1,7 +1,13 @@
 <section>
+<<<<<<< HEAD
+        <div class="container col-11 mt-2">
+            <div class="row">
+                <div class="">
+=======
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11">
+>>>>>>> 9952d0d06ef81dfadb30da6052c31f92cb98155a
                     <ul itemscope="" class="navleft" itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs">
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                             <i class="fa fa-home" aria-hidden="true"></i>
@@ -20,8 +26,7 @@
                     </ul>
                     <hr>
                     <div class="text-center">
-                        <h2 class="mb-4 color-main">ĐỊA CHỈ CÁC CHI NHÁNH THẨM MỸ VIỆN </h2>
-                        <div class="w-50 m-auto" style=" border-top: 1px dashed black;"></div>
+                        <h2 class="mb-2 color-main">ĐỊA CHỈ CÁC CHI NHÁNH THẨM MỸ VIỆN </h2>
                         <h3 class="text-primary mt-2">Nơi lựa chọn hàng đầu gửi gắm nhan sắc của sao Việt</h3>
                         <div class="hotline">Hotline: <span>0902035896  </span></div>
                         <div>Website: <span class="text-primary">https://linhuongspa.com</span> | E-mail: huongruby101196@gmail.com </div>

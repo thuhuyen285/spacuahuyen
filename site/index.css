@@ -474,9 +474,9 @@ footer {
             display: none;
         }
         .container {
-            margin-top: 70px;
+            margin-top: 70px !important;
         }
         section {
-            margin-top: 90px;
+            margin-top: 90px !important;
         }
     }

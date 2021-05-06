@@ -3,7 +3,7 @@
 
         <!-- Banner -->
         <div class="banner col-12 ">
-            <img width="100%" src="views/assets/img/banner2.jpg" alt="">
+            <img width="100%" src="../uploads/banner2.jpg" alt="">
         </div>
 
         <!-- DỊCH VỤ NỔI BẬT THẨM MỸ VIỆN(nhan dep trai)-->
