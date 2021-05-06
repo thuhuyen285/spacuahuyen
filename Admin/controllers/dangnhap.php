@@ -1,5 +1,6 @@
 <?php 
-
+session_start();
+require_once "../../systems/config.php";
 class Login
 {
     function __construct()
@@ -10,7 +11,6 @@ class Login
         switch ($act) {
             case 'login':
                 $this->checkUser();
-               
                 break;
             case 'logout':
                 $this->logOut();
@@ -24,25 +24,22 @@ class Login
     {   
         if(isset($_POST['login'])&&($_POST['login']))
         {
-            $user = $this->lib->stripTags($_POST['user']);
-            $pass = $this->lib->stripTags($_POST['password']);
-           
-
+            $user = $_POST['user'];
+            $pass = $_POST['password'];
+            
             if($user == ""||$pass == ""){
                 $_SESSION['error_taikhoan'] = "Vui lòng điền đầy đủ thông tin.";
-            }elseif(empty($taiKhoan)){
-                $_SESSION['error_taikhoan'] = "Tài khoản hoặc mật khẩu không đúng.";
             }
             else
             {
-                if( $user == 'admin'&& $pass='huyen123')
+                if( $user == 'admin' && $pass='huyen123')
                 {
                     $_SESSION['sid'] = 1;
                     $_SESSION['suser'] = 'admin';
                     $_SESSION['role'] = 1;
-                    header("location: ".ROOT_URL."/admin.php");
+                    header("location: ".ROOT_URL."/admin");
+                    
                 }else{
-
                     header('location: login.php?act=login');
                 }
             }
@@ -52,12 +49,10 @@ class Login
     }
     function logOut()
     {
-        if(isset($_GET['logout'])&&($_GET['logout'])){
-            unset($_SESSION['sid']);
+             unset($_SESSION['sid']);
             unset($_SESSION['suser']);
             unset($_SESSION['role']);
-            header('location: login.php?act=login');
-        }
+            header('location: dangnhap.php?act=login');
     }
 }
 new Login;
