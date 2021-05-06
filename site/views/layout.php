@@ -86,7 +86,7 @@
                     <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Thẩm Mỹ Viện Linh Hương</a>
                     <a class="dropdown-item" href="<?=ROOT_URL.'/lien-he'?>">Liên Hệ</a>
-                    <a class="dropdown-item" href="#">Bảng Giá Dịch Vụ</a>
+                    <a class="dropdown-item" href="<?=ROOT_URL.'/bai-viet/bang-gia-dich-vu-lam-dep-tai-tham-my-vien-linh-huong'?>">Bảng Giá Dịch Vụ</a>
                     </div>
                 </li>
                 <li class="nav-item">
