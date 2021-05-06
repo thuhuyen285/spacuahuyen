@@ -3,17 +3,18 @@
  class model_dienthoai extends model_system  {
       function stores($tieude,$slug,$noidung, $urlHinh,$ngaytao,$MoTa,$idNSX){  //hàm lưu 1 record vào table
           $sql="INSERT INTO dienthoai (tieude,slug, noidung, urlHinh,ngaytao, MoTa,idNSX) 
-          VALUES ('$tieude','$slug','$noidung', '$urlHinh','$ngaytao', '$MoTa', '$idNSX')";
-          $this->exec1($sql);
+          VALUES (?,?,?,?,?,?,?)";
+          $this->exec1($sql,$tieude,$slug,$noidung, $urlHinh,$ngaytao,$MoTa,$idNSX);
       }
       function updates($idDT,$tieude,$slug,$noidung, $urlHinh,$MoTa,$idNSX){ //hàm cập nhật 1 record vào table
         if($urlHinh == ''){
-          $sql="UPDATE dienthoai set tieude='$tieude',slug='$slug',noidung ='$noidung',MoTa ='$MoTa',idNSX ='$idNSX' where idDT = $idDT";
+          $sql="UPDATE dienthoai set tieude=?,slug=?,noidung =?,MoTa =?,idNSX =? where idDT = ?";
+          $this->exec1($sql,$tieude,$slug,$noidung,$MoTa,$idNSX,$idDT);
         }else{
-          $sql="UPDATE dienthoai set tieude='$tieude',slug='$slug',noidung ='$noidung',urlHinh ='$urlHinh',MoTa ='$MoTa',idNSX ='$idNSX' where idDT = $idDT";
-         
+          $sql="UPDATE dienthoai set tieude=?,slug=?,noidung =?,urlHinh =?,MoTa =?,idNSX =? where idDT = ?";
+          $this->exec1($sql,$tieude,$slug,$noidung, $urlHinh,$MoTa,$idNSX,$idDT);
         }
-        $this->exec1($sql);
+       
       }
       function deletes($idDT){  //hàm xóa 1 record khỏi table
         $sql = "DELETE from dienthoai where idDT = '$idDT'";

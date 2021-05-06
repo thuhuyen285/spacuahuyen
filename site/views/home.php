@@ -15,7 +15,7 @@
                 <?php
                         foreach ($getServiceSpecial as $row) {
                             $link = ROOT_URL."/bai-viet/".$row['slug'];
-                           echo '<div class="col-sm-4 mt-4 col-md-6">
+                           echo '<div class="col-sm-4 mt-4  col-md-6 col-lg-4" >
                                     <div class="card carddv">
                                         <div class="card-body text-center">
                                             <a href="'.$link.'"><img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt=""></a>
@@ -39,7 +39,7 @@
                 <?php
                         foreach ($getCustomerFeel as $row) {
                             $link = ROOT_URL."/bai-viet/".$row['slug'];
-                            echo '<div class="col-sm-4 mt-4 col-md-6">
+                            echo '<div class="col-sm-4 mt-4 col-md-6 col-lg-4">
                                      <div class="card carddv">
                                          <div class="card-body text-center">
                                          <a href="'.$link.'"><img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt=""></a>
@@ -106,7 +106,7 @@
                     <?php
                         foreach ($getNewsSpecial as $row) {
                             $link = ROOT_URL."/bai-viet/".$row['slug'];
-                            echo '<div class="col-sm-4 mt-4 col-md-6">
+                            echo '<div class="col-sm-4 mt-4 col-md-6 col-lg-4">
                                      <div class="card carddv">
                                          <div class="card-body text-center">
                                             <a href="'.$link.'"><img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt=""></a>
@@ -166,42 +166,42 @@
                     <a><b> ♦ HẢI PHÒNG :</b> 147 Tổ 1- TT An Dương- Hải Phòng</a>
                 </ul>
                 <div class="row">
-                    <div class="col-sm-3 col-6  p-0 col-md-4">
+                    <div class="col-sm-3 col-6  p-0 col-md-4 col-lg-3">
                         <div class="card border-0 p-0">
                             <div class="card-body">
                                 <img src="views/assets/img/coso1.jpg" width="100%" height="200px" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 p-0 col-md-4" >
+                    <div class="col-sm-3 col-6 p-0 col-md-4 col-lg-3" >
                         <div class="card border-0 p-0">
                             <div class="card-body">
                                 <img src="views/assets/img/coso2.jpg" width="100%" height="200px" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 p-0 col-md-4">
+                    <div class="col-sm-3 col-6 p-0 col-md-4 col-lg-3">
                         <div class="card border-0 p-0">
                             <div class="card-body">
                                 <img src="views/assets/img/coso3.jpg" width="100%" height="200px" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 p-0 col-md-4">
+                    <div class="col-sm-3 col-6 p-0 col-md-4 col-lg-3">
                         <div class="card border-0 p-0">
                             <div class="card-body">
                                 <img src="views/assets/img/coso4.jpg" width="100%" height="200px" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 p-0 col-md-4">
+                    <div class="col-sm-3 col-6 p-0 col-md-4 col-lg-3">
                         <div class="card border-0 p-0">
                             <div class="card-body">
                                 <img src="views/assets/img/cs5.jpg" width="100%" height="200px" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-6 p-0 col-md-4">
+                    <div class="col-sm-3 col-6 p-0 col-md-4 col-lg-3">
                         <div class="card border-0 p-0">
                             <div class="card-body">
                                 <img src="views/assets/img/cs7.jpg" width="100%" height="200px" alt="">

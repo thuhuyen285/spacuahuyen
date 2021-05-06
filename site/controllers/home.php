@@ -33,7 +33,7 @@ require_once "models/home.php";
          $getNewsSpecial = $this->model->getNewsSpecial();
          $getServiceSpecial  = $this->model->getServiceSpecial();
          $getCustomerFeel = $this->model->getCustomerFeel();
-        $page_title ="Danh sách nhà sản xuất";
+        $page_title ="Thẩm mỹ viện Linh Hương";
         $viewFile = "views/home.php";
         require_once "views/layout.php";  
      }   
@@ -45,7 +45,7 @@ require_once "models/home.php";
      
       $sp = $this->model->getOnePro($slug);
       $namedm = $datadm[$sp['idNSX']];
-      $page_title ="Danh sách nhà sản xuất";
+      $page_title =$sp['tieude'];
       $viewFile = "views/detail.php";
       require_once "views/layout.php";  
      }

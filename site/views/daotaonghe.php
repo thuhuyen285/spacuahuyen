@@ -187,7 +187,7 @@
                                 <a href="https://www.facebook.com/profile.php?id=100009791569134"><img alt="Chat Facebook Với LINH HƯƠNG " src="../uploads/logo.jpg" title="Chat Facebook" /></a>
                             </p>
 
-                            <p>================================================</p>
+                            <p>=======================</p>
 
                             <p><strong>️H&Atilde;Y NẮM BẮT CƠ HỘI NGAY B&Acirc;Y GIỜ V&Agrave; TỚI NGAY LINH HƯƠNG ĐỂ TH&Agrave;NH C&Ocirc;NG NH&Eacute;!</strong></p>
 
@@ -196,9 +196,9 @@
                                 ► HẢI PHÒNG : 147 Tổ 1- TT An Dương- Hải Phòng <br>
                                 ► TP.HCM : 666 Hưng Phú- P10- Q8- HCM</strong></p>
 
-                            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ✅&nbsp;<strong>Facebook</strong>:&nbsp;<a href="https://www.facebook.com/profile.php?id=100009791569134">https://www.facebook.com/profile.php?id=100009791569134</a></p>
+                            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ✅&nbsp;<strong></strong>&nbsp;<a href="https://www.facebook.com/profile.php?id=100009791569134">Link Facebook</a></p>
 
-                            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ✅&nbsp;<strong>Fanpage</strong>:&nbsp;https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc</p>
+                            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ✅&nbsp;<strong></strong>&nbsp;<a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc">Link Fanpage</a></p>
 
 
                         </div>
