@@ -18,59 +18,8 @@
     <!--menu logo search  -->
     <header class="pl-5 col-12  pr-5 ">
            
-        <!-- <div class=" col-2 mr-4 ">
-            <a class="logo" href="#">
-                <img width="150px" src="views/assets/img/logo.jpg" alt="">
-            </a>
-        </div>
-        
-            <div class="topnav col-7 d-flex align-items-center" id="myTopnav" class=" ">
-             <ul class="nav ">
-                <li class="topnav-item">
-                    <a href="home.html" >Thông tin
-                        <ul class="sub-menu">
-                            <li><a href="">Thẩm Mỹ Viện Linh Hương</a></li>
-                            <li><a href="">Liên Hệ</a></li>
-                            <li><a href="">Tuyển Dụng</a></li>
-                            <li><a href="">Bảng Giá Dịch Vụ</a></li>
-                        </ul>   
-                    </a> 
-                       
-                </li>
-                <li class="topnav-item">
-                     <a href="daotaonghe.html" >Đạo tào nghề</a>
-                </li>
-                <li  class="topnav-item">
-                    <a href="#contact">Fanpage</a>
-                </li>
-                <li  class="topnav-item">
-                    <a href="tintuc.html">Tin tức
-                        <ul class="sub-menu">
-                            <li><a href="">Cảm Nhận Khách Hàng</a></li>
-                            <li><a href="">Kiến Thức Làm Đẹp</a></li>
-                            <li><a href="">Tin Tức Thẩm Mỹ Viện</a></li>
-                        </ul>   
-                    </a>
-                </li>
-                <li>
-                    <a href="#about" class="topnav-item">Dịch vụ</a>
-                </li>
-               <li>
-                    <a href="javascript:void(0);" class="icon topnav-item" onclick="myFunction()">
-                        <i class="fa fa-align-justify"></i>
-                    </a>
-               </li>
-               </ul>
-
-           
-            </div>
-       
-        <form class="form-inline search col-3 ">
-            <input class="form-control mr-sm-2 col-7 ips" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn my-2 my-sm-0 bts" type="submit">Search</button>
-        </form> -->
         <nav class="navbar navbar-expand-lg nav-dark   w-100 ">
-            <a class="logo" href="#">
+            <a class="logo mr-5" href="#">
                 <img width="150px" src="views/assets/img/logo.jpg" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,8 +29,8 @@
             </button>
 
             <div class="collapse navbar-collapse ml-5 " id="navbarSupportedContent">
-                <ul class="navbar-nav  mr-auto">
-                <li class="nav-item dropdown ml-5 pl-5">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Thông Tin
                     </a>

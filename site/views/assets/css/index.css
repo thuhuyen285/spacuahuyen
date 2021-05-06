@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+iframe {
+    max-width: 100%;
+}
+
 .hidden {
     display: none;
 }
@@ -12,12 +16,9 @@ h2 {
     color: rgb(184, 125, 17);
 }
 
-
-/* img {
+img {
     max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
+}
 
 .color-main {
     color: rgb(223, 190, 130);
@@ -83,10 +84,11 @@ header {
     border-radius: 5px;
     display: none;
 }
-.gioithieu2{
-    color: rgb(230, 178, 81);
 
+.gioithieu2 {
+    color: rgb(230, 178, 81);
 }
+
 .sub-menu li {
     height: 40px;
     line-height: 40px;
@@ -122,13 +124,16 @@ header {
 .carddv {
     background-color: rgb(184, 125, 17);
 }
-.span{
+
+.span {
     color: red;
     font-weight: 600;
 }
-span{
+
+span {
     color: black;
 }
+
 .carddv p {
     color: white;
     font-weight: bold;
@@ -139,15 +144,20 @@ span{
     color: rgb(223, 190, 130);
     border: 1px solid rgb(223, 190, 130);
 }
-.navbar-nav .nav-link{
+
+.navbar-nav .nav-link {
     color: rgb(184, 125, 17) !important;
 }
-.dropdown-menu a:hover{
-    color:  black;
+
+.dropdown-menu a:hover {
+    color: black;
 }
-.dropdown-menu a{
+
+.dropdown-menu a {
     color: rgb(184, 125, 17);
 }
+
+
 /* section {
     margin-top: 180px;
 } */
@@ -284,6 +294,77 @@ footer {
     display: block;
     float: none !important;
     height: auto;
+}
+
+@media only screen and (min-width: 739px) and (max-width: 1023px) {
+    .logo img {
+        float: left;
+        width: 100px !important;
+    }
+    .topnav {}
+    .topnav a {
+        /* margin-left: 50px; */
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav {
+        line-height: 40px;
+    }
+    .topnav a {
+        font-size: 13px !important;
+    }
+    .search {
+        display: none;
+    }
+    section {
+        margin-top: 90px;
+    }
+    .content img {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .navbar-nav {
+        background-color: rgb(230, 177, 79);
+        padding: 1rem;
+    }
+    .navbar-nav .nav-link {
+        color: white;
+    }
+    .navbar-toggler {
+        color: rgb(184, 125, 17);
+        border-color: rgb(184, 125, 17);
+        display: flex;
+        align-items: center;
+        line-height: 30px;
+    }
+    .form-inline {
+        display: none;
+    }
+    .mt-5,
+    .my-5 {
+        margin-top: 1rem!important;
+    }
 }
 
 @media only screen and (max-width: 739px) {

@@ -83,7 +83,7 @@
                             <p>Để biết được các thông tin chính xác nhất về thẩm mỹ viện Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</p>
 
                                 <a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc" class="text-primary"> 
-                                ► Fanpage: https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc </a><br> <br>
+                                Link fanpage tại đây</a><br> <br>
                                 <img src="<?=PATH_IMG?>logo.jpg" alt=""> <br>
                                                                                         
                                 Hotline :<b> 090 203 58 96 </b> hoặc đến chi nhánh Linh Hương gần nhất để được tư vấn và sử dụng dịch vụ! <br> 
