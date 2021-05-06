@@ -14,17 +14,9 @@
 <body>
 
     <!--menu logo search  -->
-    <header class="pl-5 col-12 position-fixed pr-5 ">
-        <div class="navbar__mobile" id="navbarmb">
-            <ul>
-                <div id="navmb__off"><i class="fa fa-times"></i></div>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="">See more</a></li>
-            </ul>
-        </div>
-        <div class=" col-2 mr-4 ">
+    <header class="pl-5 col-12  pr-5 ">
+           
+        <!-- <div class=" col-2 mr-4 ">
             <a class="logo" href="#">
                 <img width="150px" src="views/assets/img/logo.jpg" alt="">
             </a>
@@ -74,7 +66,53 @@
         <form class="form-inline search col-3 ">
             <input class="form-control mr-sm-2 col-7 ips" type="search" placeholder="Search" aria-label="Search">
             <button class="btn my-2 my-sm-0 bts" type="submit">Search</button>
-        </form>
+        </form> -->
+        <nav class="navbar navbar-expand-lg nav-dark   w-100 ">
+            <a class="logo" href="#">
+                <img width="150px" src="views/assets/img/logo.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Thông Tin
+                    </a>
+                    <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Thẩm Mỹ Viện Linh Hương</a>
+                    <a class="dropdown-item" href="<?=ROOT_URL.'/lien-he'?>">Liên Hệ</a>
+                    <a class="dropdown-item" href="#">Bảng Giá Dịch Vụ</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FANPAGE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Đào Tạo Nghề</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tin Tức
+                    </a>
+                    <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-3/page-1'?>">Cảm Nhận Khách Hàng</a>
+                        <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-2/page-1'?>">Kiến Thức Làm Đẹp</a>
+                        <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-4/page-1'?>">Tin Tức Thẩm Mỹ Viện</a>
+                    </div>
+                </li>
+             
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+            </nav>
     </header>
     <script>
         function myFunction() {
@@ -84,33 +122,6 @@
             } else {
                 x.className = "topnav";
             }
-        }
-        // navbar
-        var navbarmb = document.getElementById("navbarmb");
-        var navbaric = document.getElementById("navbaric");
-        var navbarrg = document.getElementById("navbarrg");
-        var nboff = document.getElementById("navmb__off");
-        navbaric.addEventListener("click", shownav);
-        navbarrg.addEventListener("click", hidenav);
-        nboff.addEventListener("click", offnav);
-
-        function shownav() {
-        if ((navbarmb.style.transform = "translateX(100%)")) {
-            navbarmb.style.transform = "translateX(0%)";
-            navbarrg.style.display = "block";
-            navbaric.style.float = "right";
-            nboff.style.display = "block";
-        }
-        }
-
-        function hidenav() {
-        navbarmb.style.transform = "translateX(100%)";
-        navbarrg.style.display = "none";
-        }
-
-        function offnav() {
-        navbarmb.style.transform = "translateX(100%)";
-        navbarrg.style.display = "none";
         }
     </script>
 
