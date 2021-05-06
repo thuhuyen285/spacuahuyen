@@ -1,5 +1,5 @@
 <?php
-
+require_once "../../../../../systems/config.php";
 /*
  * CKFinder Configuration File
  *
@@ -66,7 +66,7 @@ $config['images'] = array(
 $config['backends'][] = array(
     'name'         => 'default',
     'adapter'      => 'local',
-    'baseUrl'      => 'http://localhost/asmphp2/uploads/',
+    'baseUrl'      => ROOT_URL.'/uploads/',
 //  'root'         => '', // Can be used to explicitly set the CKFinder user files directory.
     'chmodFiles'   => 0777,
     'chmodFolders' => 0755,

@@ -18,7 +18,7 @@
                            echo '<div class="col-sm-4 mt-4 ">
                                     <div class="card carddv">
                                         <div class="card-body text-center">
-                                            <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
+                                            <a href="'.$link.'"><img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt=""></a>
                                             <a href="'.$link.'" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
                                         </div>
                                     </div>
@@ -42,7 +42,7 @@
                             echo '<div class="col-sm-4 mt-4 ">
                                      <div class="card carddv">
                                          <div class="card-body text-center">
-                                             <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
+                                         <a href="'.$link.'"><img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt=""></a>
                                              <a href="'.$link.'" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
                                          </div>
                                      </div>
@@ -109,7 +109,7 @@
                             echo '<div class="col-sm-4 mt-4 ">
                                      <div class="card carddv">
                                          <div class="card-body text-center">
-                                             <img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt="">
+                                            <a href="'.$link.'"><img src="'.PATH_IMG.$row['urlHinh'].'" width="100%" height="270px" alt=""></a>
                                              <a href="'.$link.'" class="pt-2 text-white font-weight-bold card-text mt-3">'.addslashes($row['tieude']).'</a>
                                          </div>
                                      </div>

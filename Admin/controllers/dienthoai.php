@@ -48,7 +48,7 @@ class dienthoai {
           $idNSX =$_POST['idNSX'];
           $tieude = trim(strip_tags($tieude));
           $slug = $this->lib->slug($_POST['tieude']);
-          $noidung = trim(strip_tags($noidung));
+    
         
           $urlHinh =$this->lib->checkUpLoadMany($urlHinh);
           $MoTa = trim(strip_tags($MoTa));
@@ -73,7 +73,6 @@ class dienthoai {
          $idNSX =$_POST['idNSX'];
          $tieude = trim(strip_tags($tieude));
          $slug = $this->lib->slug($_POST['tieude']);
-         $noidung = trim(strip_tags($noidung));
          $urlHinh =$this->lib->checkUpLoadMany($urlHinh);
           $MoTa = trim(strip_tags($MoTa));
           settype($idNSX,"int");

@@ -1,4 +1,4 @@
-<section>
+<section class="mt-3">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11">
@@ -26,7 +26,21 @@
                             <?=$sp['noidung']?>
                         </div>
                     </div>
-         
+                    <div class="container text-lg-center mt-5">
+
+                    <h6>Để biết được các thông tin chính xác nhất về thẩm mỹ viện Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</h6>
+
+                    ► Fanpage: https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc <br> <br>
+                    <img src="img/logo.jpg" alt="">
+                                                                            
+                    Hotline :<b> 090 203 58 96 </b> hoặc đến chi nhánh Linh Hương gần nhất để được tư vấn và sử dụng dịch vụ! <br> 
+                                                
+                    <b>► TP.HẢI PHÒNG:</b> 147 Tổ 1- TT An Dương- Hải Phòng <br>
+                                                
+                    <b> ► BÌNH DƯƠNG:</b> 37 Nguyễn Văn Tiết - Lái Thiêu- Thuận An- Bình Dương <br>
+                    
+                    <b> ► TP.HCM:</b> 660 Đường Hưng Phú, Phường 10, Quận 8, Thành phố Hồ Chí Minh, Việt Nam
+                    </div>
                 </div>
             </div>
         </div>
