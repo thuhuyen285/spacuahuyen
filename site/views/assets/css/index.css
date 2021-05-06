@@ -83,7 +83,10 @@ header {
     border-radius: 5px;
     display: none;
 }
+.gioithieu2{
+    color: rgb(230, 178, 81);
 
+}
 .sub-menu li {
     height: 40px;
     line-height: 40px;
@@ -119,7 +122,13 @@ header {
 .carddv {
     background-color: rgb(184, 125, 17);
 }
-
+.span{
+    color: red;
+    font-weight: 600;
+}
+span{
+    color: black;
+}
 .carddv p {
     color: white;
     font-weight: bold;
@@ -130,8 +139,15 @@ header {
     color: rgb(223, 190, 130);
     border: 1px solid rgb(223, 190, 130);
 }
-
-
+.navbar-nav .nav-link{
+    color: rgb(184, 125, 17) !important;
+}
+.dropdown-menu a:hover{
+    color:  black;
+}
+.dropdown-menu a{
+    color: rgb(184, 125, 17);
+}
 /* section {
     margin-top: 180px;
 } */
@@ -170,14 +186,6 @@ ul,
 li {
     list-style: none;
 }
-
-a,
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {}
 
 .navleft {
     display: flex;

@@ -2,19 +2,19 @@
     <section>
             <div class="container ">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-11">
+                    <div class="col-lg-11 mt-2 ">
                         <ul itemscope="" class="navleft" itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs">
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                 <i class="fa fa-home" aria-hidden="true"></i>
                             </li>
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                 <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="" title="Thông Tin Doanh Nghiệp">
-                                    <span itemprop="name">Tin Tức Thẩm Mỹ Viện</span>
+                                    <span itemprop="name" class="text-dark">Tin Tức Thẩm Mỹ Viện</span>
                                 </a>
                                 <meta itemprop="position" content="2"> </li>
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                 <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="" title="Liên Hệ">
-                                    <span itemprop="name"> Bảng Giá Dịch Vụ Làm Đẹp Tại Thẩm Mỹ Viện Linh Hương</span>
+                                    <span itemprop="name" class="text-dark"> Bảng Giá Dịch Vụ Làm Đẹp Tại Thẩm Mỹ Viện Linh Hương</span>
                                 </a>
                                 <meta itemprop="position" content="3">
                             </li>
@@ -219,7 +219,7 @@
                                         Thời gian phục hồi nhanh chóng <br>
                                         Chi phí thấp.</p> </div>
                                     <div class="ml-3">
-                                    <b>Tuy nhiên, bên cạnh đó phương pháp nhấn mí cũng tồn tại một số nhược điểm:</b>
+                                    <b>Tuy nhiên, bên cạnh đó phương pháp nhấn mí cũng tồn tại một số nhược điểm:</b> <br>
                                         Nhấn mí chỉ hiệu quả với những người trẻ dưới 30 tuổi, mí mắt không có quá nhiều da thừa và mỡ. <br>
                                         Thông thường sau 2-3 năm các nếp mí sẽ mờ đi. Điều này đồng nghĩa với việc các chị em sẽ phải đi nhấn mí lần nữa.
                                     </div>
@@ -255,7 +255,8 @@
 
                             <h6>Để biết được các thông tin chính xác nhất về thẩm mỹ viện Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</h6>
 
-                                ► Fanpage: https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc <br> <br>
+                               <a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc" class="text-primary"> 
+                               ► Fanpage: https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc </a><br> <br>
                                 <img src="<?=PATH_IMG?>logo.jpg" alt="">
                                                                                         
                                 Hotline :<b> 090 203 58 96 </b> hoặc đến chi nhánh Linh Hương gần nhất để được tư vấn và sử dụng dịch vụ! <br> 

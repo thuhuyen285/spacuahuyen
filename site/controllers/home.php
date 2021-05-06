@@ -22,6 +22,7 @@ require_once "models/home.php";
          case "danhmuc":$this->danhmuc();break;
          case "lienhe":$this->lienhe();break;
          case "banggia":$this->banggia();break;
+         case "gioithieu":$this->gioithieu();break;
         }
         
      }
@@ -77,8 +78,12 @@ require_once "models/home.php";
      }
      function banggia()
      {
-      $page_title ="Danh sách nhà sản xuất";
       $viewFile = "views/banggia.php";
+      require_once "views/layout.php";  
+     }
+     function gioithieu()
+     {
+      $viewFile = "views/gioithieu.php";
       require_once "views/layout.php";  
      }
 }

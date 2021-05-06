@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Home</title>
+    <title> Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="views/assets/css/index.css">
+    <link rel="shortcut icon" type="image/png" href="/icon.png"/>
+
 </head>
 
 <body>
@@ -77,25 +79,24 @@
                 </span>
             </button>
 
-            <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="collapse navbar-collapse ml-5 " id="navbarSupportedContent">
+                <ul class="navbar-nav  mr-auto">
+                <li class="nav-item dropdown ml-5 pl-5">
+                    <a class="nav-link dropdown-toggle mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Thông Tin
                     </a>
                     <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Thẩm Mỹ Viện Linh Hương</a>
-                    <a class="dropdown-item" href="<?=ROOT_URL.'/lien-he'?>">Liên Hệ</a>
-                    <a class="dropdown-item" href="<?=ROOT_URL.'/bai-viet/bang-gia-dich-vu-lam-dep-tai-tham-my-vien-linh-huong'?>">Bảng Giá Dịch Vụ</a>
+                    <a class="dropdown-item" href="<?=ROOT_URL.'/gioi-thieu'?>">Thẩm Mỹ Viện Linh Hương</a>
+                    <a class="dropdown-item" href="<?=ROOT_URL.'/bang-gia'?>">Bảng Giá Dịch Vụ</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FANPAGE</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc">FANPAGE</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-3">
                     <a class="nav-link" href="#">Đào Tạo Nghề</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown mr-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Tin Tức
                     </a>
@@ -105,7 +106,10 @@
                         <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-4/page-1'?>">Tin Tức Thẩm Mỹ Viện</a>
                     </div>
                 </li>
-             
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="<?=ROOT_URL.'/lien-he'?>">Liên Hệ</a>
+                </li>
+
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
