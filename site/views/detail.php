@@ -41,11 +41,10 @@
                     
                     <b> ► TP.HCM:</b> 660 Đường Hưng Phú, Phường 10, Quận 8, Thành phố Hồ Chí Minh, Việt Nam
                     </div>
+                    <div class="fb-comments" data-href="https://webofnhan.tk" data-width="100%" data-numposts="5"></div>
                 </div>
             </div>
         </div>
 
     </section>
-    <div class="fb-comment-embed"
-   data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185"
-   data-width="500"></div>
+   

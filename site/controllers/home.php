@@ -67,28 +67,31 @@ require_once "models/home.php";
 
       $Pagination =  $this->model->Page($TotalProduct, $CurrentPage);
 
-      $page_title ="Danh sách nhà sản xuất";
+      $page_title ="Bài Viết";
       $viewFile = "views/news.php";
       require_once "views/layout.php";  
      }
      function lienhe()
      {
-      $page_title ="Danh sách nhà sản xuất";
+      $page_title ="Liên Hệ";
       $viewFile = "views/lienhe.php";
       require_once "views/layout.php";  
      }
      function banggia()
      {
+      $page_title ="Bảng Giá";
       $viewFile = "views/banggia.php";
       require_once "views/layout.php";  
      }
      function gioithieu()
      {
+      $page_title ="Giới Thiệu";
       $viewFile = "views/gioithieu.php";
       require_once "views/layout.php";  
      }
      function daotaonghe()
      {
+      $page_title ="Đào Tạo Nghề";
       $viewFile = "views/daotaonghe.php";
       require_once "views/layout.php";  
      }
