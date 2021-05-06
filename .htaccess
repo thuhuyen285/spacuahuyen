@@ -12,6 +12,7 @@ RewriteRule ^thanh-toan-thanh-cong/$ /spahuyen/site/?act=ttthanhcong [L]
 RewriteRule ^lien-he$ /spahuyen/site/?act=lienhe [L]
 RewriteRule ^bang-gia$ /spahuyen/site/?act=banggia [L]
 RewriteRule ^gioi-thieu$ /spahuyen/site/?act=gioithieu [L]
+RewriteRule ^dao-tao-nghe$ /spahuyen/site/?act=daotaonghe [L]
 RewriteRule ^danh-muc-([0-9]+)/page-([0-9]+)$ /spahuyen/site/?act=danhmuc&id=$1&Page=$2 [L]
 
 RewriteRule ^bai-viet/([a-zA-Z0-9-]+)$ /spahuyen/site/?act=detail&id=$2&slug=$1 [L]

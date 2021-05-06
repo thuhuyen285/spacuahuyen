@@ -94,7 +94,7 @@
                     <a class="nav-link" href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc">FANPAGE</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="#">Đào Tạo Nghề</a>
+                    <a class="nav-link" href="<?=ROOT_URL.'/dao-tao-nghe'?>">Đào Tạo Nghề</a>
                 </li>
                 <li class="nav-item dropdown mr-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -138,7 +138,7 @@
                     <div class="card-body ">
                         <img width="190px" src="views/assets/img/logobr.png" alt=""> <br>
                         <p class="card-text">
-                            Giấy phép kinh doanh số: 0305 201 737 <br> Tư vấn (24/7): 1900 0019 <br> Di động: 090 203 58 96 <br> Email: huongruby101196@gmail.com <br>
+                            Giấy phép kinh doanh số: 0305 201 737  <br> Di động: 090 203 58 96 <br> Email: huongruby101196@gmail.com <br>
                         </p>
                     </div>
                 </div>

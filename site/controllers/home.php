@@ -23,6 +23,7 @@ require_once "models/home.php";
          case "lienhe":$this->lienhe();break;
          case "banggia":$this->banggia();break;
          case "gioithieu":$this->gioithieu();break;
+         case "daotaonghe":$this->daotaonghe();break;
         }
         
      }
@@ -84,6 +85,11 @@ require_once "models/home.php";
      function gioithieu()
      {
       $viewFile = "views/gioithieu.php";
+      require_once "views/layout.php";  
+     }
+     function daotaonghe()
+     {
+      $viewFile = "views/daotaonghe.php";
       require_once "views/layout.php";  
      }
 }
