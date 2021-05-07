@@ -1,37 +1,58 @@
-<?php
-    session_start();
-require_once "models/model_login.php"; //nạp model để có các hàm tương tác db
-class dangnhap {
-     function __construct()   {
-        $this->model = new model_dangnhap();
-        $act = "login";//chức năng mặc định
-        if(isset($_GET["act"])==true) $act=$_GET["act"];//tiếp nhận chức năng user request
-        switch ($act) {    
-             case "getlogin": $this->getlogin(); break;
-             case "login": $this->login(); break;
-             case "logout": $this->logout(); break;
+<?php 
+session_start();
+require_once "../../systems/config.php";
+class Login
+{
+    function __construct()
+    {
+       
+        $act = "login";
+        if(isset($_GET["act"])==true) $act = $_GET['act'];
+        switch ($act) {
+            case 'login':
+                $this->checkUser();
+                break;
+            case 'logout':
+                $this->logOut();
+                break; 
+            default:
+                break;
         }
-        //$this->$act; 
-     }
-            function login(){
-                    $page_title = "đăng nhập";
-                    $page_file = "views/dangnhap.php";
-                    require_once "views/dangnhap.php";
+     
+    }
+    function checkUser()
+    {   
+        if(isset($_POST['login'])&&($_POST['login']))
+        {
+            $user = $_POST['user'];
+            $pass = $_POST['password'];
+            
+            if($user == ""||$pass == ""){
+                $_SESSION['error_taikhoan'] = "Vui lòng điền đầy đủ thông tin.";
             }
-            function getlogin(){
-                $Username = $_POST['Username'];
-                $Password = $_POST['Password'];
-                $row = $this->model->getlogin($Username,$Password);
-                require_once "views/dangnhap.php";
-         
-            }
-            function logout(){
-                if(isset($_SESSION['Admin']) && ($_SESSION['Username'])){
-                    unset($_SESSION['Admin']);
-                    unset($_SESSION['Username']);
-                    header("location: dangnhap.php");
+            else
+            {
+                if( $user == 'admin' && $pass='huyen123')
+                {
+                    $_SESSION['sid'] = 1;
+                    $_SESSION['suser'] = 'admin';
+                    $_SESSION['role'] = 1;
+                    header("location: ".ROOT_URL."/admin");
+                    
+                }else{
+                    header('location: login.php?act=login');
                 }
             }
-
+    
+        }
+        require_once "../views/dangnhap.php";
+    }
+    function logOut()
+    {
+             unset($_SESSION['sid']);
+            unset($_SESSION['suser']);
+            unset($_SESSION['role']);
+            header('location: dangnhap.php?act=login');
+    }
 }
-?>
+new Login;

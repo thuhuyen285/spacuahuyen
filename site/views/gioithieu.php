@@ -3,12 +3,12 @@
         <div class="container ">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11 mt-2 ">
-               <span class="gioithieu2 "> Thẩm Mỹ Viện Linh Hương</span> <br>
+               <span class="gioithieu2 "> Trung Tâm Thẩm Mỹ SPA Linh Hương</span> <br>
 
-                   <h3 class="mt-2 mb-4 gioithieu2">Thẩm Mỹ Viện Linh Hương: Thông Tin Doanh Nghiệp</h3> 
+                   <h3 class="mt-2 mb-4 gioithieu2">Trung Tâm Thẩm Mỹ SPA Linh Hương: Thông Tin Doanh Nghiệp</h3> 
                    Thẩm mỹ Linh hương uy tín với hệ thống chuyên khoa sâu về thẩm mỹ mắt, mũi, chỉnh hình hàm mặt, tạo hình vóc dáng, nha khoa, Spa cap cấp và điều trị da chuyên biệt.  Mỗi năm Kangnam thu hút hơn đông đảo khách hàng lựa chọn tới làm đẹp, rất nhiều các ngôi sao, diễn viên nổi tiếng tin tưởng trao gửi niềm tin.                    
 <br> <br>
-                   <h3 class="gioithieu2 bg-dark p-2"> Thông tin các dịch vụ làm đẹp nổi bật tại thẩm mỹ viện Linh hương </h3>   
+                   <h3 class="gioithieu2 bg-dark p-2"> Thông tin các dịch vụ làm đẹp nổi bật tại Trung Tâm Thẩm Mỹ SPA Linh Hương </h3>   
                   <div class="ml-3">
                         <br>  <h5>1. Phun Chân Mày</h5> 
                             Phun xăm lông mày là công nghệ làm mày sớm nhất và được phát triển áp dụng tới tận bây giờ. Công nghệ này hoạt động dựa trên cơ chế sử dụng mực phun phủ lên khuôn lông mày đã được tạo hình sẵn bằng đầu kim siêu nhỏ.
@@ -20,11 +20,11 @@
                         
                     <br> <h5>2. Phun môi Lipstick phủ Collagen TBG</h5> 
                             Rất nhiều khách hàng Linh hương đã khẳng định “muốn phun môi đẹp thì cứ đến Linh hương”, đây không phải là một câu nói quá
-                            mà đây là sự thật hoàn toàn đúng. Thẩm mỹ viện Linh hương có thể được xem là nơi mở đầu cho công nghệ phun môi collagen 
+                            mà đây là sự thật hoàn toàn đúng. Trung Tâm Thẩm Mỹ SPA Linh Hương có thể được xem là nơi mở đầu cho công nghệ phun môi collagen 
                             phủ bóng đang được nhiều nơi làm đẹp hiện nay áp dụng, sau thời gian cải tiến Linh hương ra mắt công nghệ phun môi hiệu
                             ứng son lì 3D giúp màu mực lên đẹp, tươi và chuẩn màu hơn, đặc biệt thời gian giữ màu tốt hơn, đẹp hoàn mỹ ở mọi góc
                             nhìn. Kèm theo đó Linh hương sử dụng mực phun collagen độc quyền của Doctor Magic, kết hợp giữa công nghệ hiện đại và 
-                            mực xăm chính hãng, thẩm mỹ viện Linh hương đã tạo ra sắc môi đẹp cho rất nhiều khách hàng.
+                            mực xăm chính hãng, Trung Tâm Thẩm Mỹ SPA Linh Hương đã tạo ra sắc môi đẹp cho rất nhiều khách hàng.
                             <div class="w-100 justify-content-center text-center mx-0">
                                 <img width="80%" class="pt-3 pb-3" src="../uploads/phunmoiliptick.jpg" alt="">
                             </div>
@@ -64,7 +64,7 @@
                                 <img width="80%" class="pt-3 pb-3" src="../uploads/trimun.jpg" alt="">
                             </div>
 
-                            <h3 class="gioithieu2 bg-dark p-2 mt-3"> Thẩm mỹ viện Linh Hương có uy tín không? </h3>   
+                            <h3 class="gioithieu2 bg-dark p-2 mt-3"> Trung Tâm Thẩm Mỹ SPA Linh Hương có uy tín không? </h3>   
                                 <div class="ml-3">
                                     Mang trong mình niềm tin về sứ mệnh đánh thức vẻ đẹp tiềm ẩn trong mỗi người, Seoul Spa luôn nỗ lực không ngừng để
                                     đem đến cho khách hàng những dịch vụ hoàn hảo nhất. Không chỉ nằm ở kết quả mà Seoul Spa còn hướng tới thẩm mỹ khỏe
@@ -80,7 +80,7 @@
                                 </div>    
                             </div> <hr>
                             <div class="text-center">
-                            <p>Để biết được các thông tin chính xác nhất về thẩm mỹ viện Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</p>
+                            <p>Để biết được các thông tin chính xác nhất về Trung Tâm Thẩm Mỹ SPA Linh Hương, bạn có thể tìm hiểu qua các trang thông tin:</p>
 
                                 <a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc" class="text-primary"> 
                                 Link fanpage tại đây</a><br> <br>

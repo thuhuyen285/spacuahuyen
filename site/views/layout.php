@@ -9,7 +9,7 @@
     <title> <?=$page_title?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="views/assets/css/index.css">
-    <link rel="shortcut icon" type="image/png" href="/icon.png"/>
+    <link rel="shortcut icon" type="image/png" style="border-radius:10px" href="../icon.png"/>
 <style>
     .iconmenu2 i{
     color: rgb(223, 190, 130);
@@ -41,7 +41,7 @@
                     </a>
                     <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="<?=ROOT_URL.'/Trang-chu-tham-my-vien-Spa-Linh-Hương'?>">Trang chủ</a>
-                    <a class="dropdown-item" href="<?=ROOT_URL.'/gioi-thieu'?>">Thẩm Mỹ Viện Linh Hương</a>
+                    <a class="dropdown-item" href="<?=ROOT_URL.'/gioi-thieu'?>">Trung Tâm Thẩm Mỹ SPA Linh Hương</a>
                     <a class="dropdown-item" href="<?=ROOT_URL.'/bang-gia'?>">Bảng Giá Dịch Vụ</a>
                     </div>
                 </li>
@@ -105,14 +105,14 @@
             <div class="col-lg-4 col-12">
                 <div class="card ft1 border-0 mt-4">
                     <div class="card-body">
-                        <h5 class="card-title">ĐỊA CHỈ THẨM MỸ VIỆN LINH HƯƠNG
+                        <h5 class="card-title">ĐỊA CHỈ TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG
                         </h5>
                         <p class="card-text">37 Nguyễn Văn Tiết - Lái Thiêu- Thuận An - Bình Dương</p>
                         <a>  ► Giờ làm việc toàn hệ thống Linh Hương: <br>
                         
-                        • Từ Thứ 2 đến Thứ 6: từ 7h30 đến 18h <br>
+                        • Từ Thứ 2 đến chủ nhật: từ 9h đến 21h <br>
                     
-                        • Thứ 7 và Chủ Nhật: từ 6h30 đến 18h</a>
+                       
                     </div>
                 </div>
             </div>
@@ -131,9 +131,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=2844670718991561&autoLogAppEvents=1" nonce="sp4AV95y"></script>
 </body>
 
 </html>

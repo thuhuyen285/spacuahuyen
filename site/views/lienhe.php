@@ -1,5 +1,8 @@
 <section>
+<<<<<<< HEAD
 
+=======
+>>>>>>> aac6f01f5443a210e481540689cce04d79d0a24e
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11">
@@ -28,7 +31,7 @@
                         <div>Facebook: <span class="text-primary">https://www.facebook.com/profile.php?id=100009791569134</span></div>
                         <div class="text-primary ">HOTLINE CHÍNH THỨC CỦA LINH HƯƠNG GROUP: 0902035896 - 0902035896 - 0902035896 - 0902035896</div>
                         <div class="mt-2">Khi thương hiệu LINH HƯƠNG nổi tiếng kéo theo nhiều cơ sở thẩm mỹ luôn nói là chi nhánh của LINH HƯƠNG, một số cá nhân thì nói là nhân viên của LINH HƯƠNG. Để bảo vệ quyền lợi và tránh rủi ro tiền mất tật mang cho khách hàng khi
-                            đi làm đẹp, LINH HƯƠNG công bố thông tin những địa chỉ sau đây là chi nhánh chính thức trực thuộc hệ thống Thẩm mỹ viện LINH HƯƠNG.</div>
+                            đi làm đẹp, LINH HƯƠNG công bố thông tin những địa chỉ sau đây là chi nhánh chính thức trực thuộc hệ thống Trung Tâm Thẩm Mỹ SPA Linh Hương.</div>
                     </div>
                     <h2 class="color-main mt-3">
                         ► Địa Chỉ Chi Nhánh LINH HƯƠNG Ở BÌNH DƯƠNG:

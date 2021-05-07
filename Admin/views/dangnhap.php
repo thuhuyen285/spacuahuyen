@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <style>
   body{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(login.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../views/img/login.jpg);
         height: 100vh;
         background-size: cover;
         background-position: center;
@@ -29,17 +29,27 @@
 </head>
 <body>
     <div class="col-12 row p-0 m-0 mx-0 position-fixed">
-        <form class="col-3 position-fixed login" >
+        <form class="col-3 position-fixed login" method="POST">
             <div class="form-group">
               <label class="" for="exampleInputEmail1">Tên đăng nhập</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Hãy nhập tên">
+              <input type="text" name="user" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Hãy nhập tên">
               <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
             <div class="form-group">
               <label class="" for="exampleInputPassword1">Mật khẩu</label>
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Hãy nhập mật khẩu">
+              <input type="password"  name="password" class="form-control" id="exampleInputPassword1" placeholder="Hãy nhập mật khẩu">
             </div>
-            <button type="submit" class="btn button mt-4">Login</button>
+            <?php 
+            if(isset($_SESSION["error_taikhoan"])){ ?>
+                <div class="form-group">
+                <div class="alert alert-danger" role="alert">
+                    <strong><?=$_SESSION["error_taikhoan"]?></strong> <a href="#" class="alert-link"></a>
+                </div>
+               </div>
+               <?php  }    ?>
+        
+           
+            <input type="submit" name="login" class="btn button mt-4" value="Login">
           </form>
     </div>
 </body>

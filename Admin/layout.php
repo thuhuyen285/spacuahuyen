@@ -39,7 +39,7 @@
         <li class="nav-item"><a href="<?=ADMIN_URL?>/index.php?ctrl=dienthoai&act=dh_add" class="nav-link"><i class="fa fa-table"></i>Thêm đơn hàng</a></li>
         <li class="nav-item"><a href="<?=ADMIN_URL?>/index.php?ctrl=dienthoai&act=dh_index" class="nav-link"><i class="fa fa-users"></i>Dánh sách đơn hàng</a></li>
 
-        <li class="nav-item"><a href="index.php?ctrl=dangnhap&act=logout" class="nav-link"><i class="fa fa-life-ring"></i>Đăng xuất</a></li>
+        <li class="nav-item"><a href="controllers/dangnhap.php?act=logout" class="nav-link"><i class="fa fa-life-ring"></i>Đăng xuất</a></li>
 
       </ul>
     </div>

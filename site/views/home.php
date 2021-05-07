@@ -8,7 +8,7 @@
 
         <!-- DỊCH VỤ NỔI BẬT THẨM MỸ VIỆN(nhan dep trai)-->
         <div class="dichvu ">
-            <h2 class="text-center mt-5 "> DỊCH VỤ NỔI BẬT THẨM MỸ VIỆN LINH HƯƠNG
+            <h2 class="text-center mt-5 "> DỊCH VỤ NỔI BẬT TẠI TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG
             </h2>
             <div class="text-center"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
             <div class="row ">
@@ -99,7 +99,7 @@
             <!-- TIN TỨC NỔI BẬT THẨM MỸ VIỆN -->
             <div class="dichvu ">
                 <h2 class="text-center mt-5 ">
-                    TIN TỨC NỔI BẬT THẨM MỸ VIỆN LINH HƯƠNG
+                    TIN TỨC NỔI BẬT Trung Tâm Thẩm Mỹ SPA Linh Hương
                 </h2>
                 <div class="text-center"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
                 <div class="row ">
@@ -134,7 +134,7 @@
                         <div class="card phuntheu p-2">
                             <div class="card-body ">
                                 <p class="card-text doingu">
-                                    Lời đầu tiên,<b> thẩm mỹ viện Linh Hương </b> xin gửi tới Quý khách hàng lời chào trân trọng, lời chúc sức khỏe và lời cảm ơn sâu sắc nhất. Thành lập từ năm 2006, sau hơn 15 năm đứng vững trên thị trường, thẩm mỹ viện
+                                    Lời đầu tiên,<b> Trung Tâm Thẩm Mỹ SPA Linh Hương </b> xin gửi tới Quý khách hàng lời chào trân trọng, lời chúc sức khỏe và lời cảm ơn sâu sắc nhất. Thành lập từ năm 2006, sau hơn 15 năm đứng vững trên thị trường, thẩm mỹ viện
                                     Linh Hương hiện đã trở thành một trong những thương hiệu thẩm mỹ viện chăm sóc sắc đẹp hàng đầu, một địa chỉ đáng tin cậy, hội tụ đủ 3 tiêu chí: Công nghệ thẩm mỹ hiện đại, quy tụ đội ngũ bác sĩ thẩm mỹ giỏi, dịch vụ
                                     thẩm mỹ hoàn hảo. Trong suốt thời gian qua, Linh Hương luôn là điểm đến chăm sóc sắc đẹp đáng tin cậy của khách hàng.
                                 </p>
@@ -157,9 +157,9 @@
                     CƠ SỞ VẬT CHẤT SANG TRỌNG, HIỆN ĐẠI
                 </h2>
                 <div class="text-center"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
-                <p>Các cơ sở vật chất, không gian trong và ngoài phòng khám thẩm mỹ viện Linh Hương luôn được chú trọng đến từng chi tiết nhỏ, tạo nên sự khác biệt về đăng cấp sang trong. Về trang thiết bị máy móc và công nghệ, Linh Hương sẽ luôn cập nhật
+                <p>Các cơ sở vật chất, không gian trong và ngoài phòng khám Trung Tâm Thẩm Mỹ SPA Linh Hương luôn được chú trọng đến từng chi tiết nhỏ, tạo nên sự khác biệt về đăng cấp sang trong. Về trang thiết bị máy móc và công nghệ, Linh Hương sẽ luôn cập nhật
                     những dòng công nghệ mới, tiên tiến nhất nhằm mang lại hiệu quả tốt nhất cho quí Khách hàng. Công dụng và hiệu quả của sản phẩm còn tùy vào cơ địa của mỗi người.</p>
-                <h5>► Địa chỉ các chi nhánh thẩm mỹ viện Linh Hương:</h5>
+                <h5>► Địa chỉ các chi nhánh Trung Tâm Thẩm Mỹ SPA Linh Hương:</h5>
                 <ul class="ml-3">
                     <a><b> ♦ BÌNH DƯƠNG :</b> 37 Nguyễn Văn Tiết - Lái Thiêu- Thuận An - Bình Dương</a> <br>
                     <a><b> ♦ TP.HCM :</b> 666 Đường Hưng Phú- Phường 10- Quận 8- Hồ Chí Minh</a> <br>
