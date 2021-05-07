@@ -37,7 +37,7 @@ class Login
                     $_SESSION['sid'] = 1;
                     $_SESSION['suser'] = 'admin';
                     $_SESSION['role'] = 1;
-                    header("location: ".ROOT_URL."/admin");
+                    header("location: ".ROOT_URL."/Admin");
                     
                 }else{
                     header('location: login.php?act=login');
