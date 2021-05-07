@@ -15,7 +15,7 @@
                             <br> <br>
                         Ngoài ra, Màu mực tại Linh hương sử dụng mực xăm tự nhiên ( sản phẩm độc quyền của nhà Linh hương ) khả năng bám dính tốt, sản phẩm đã được Bộ Y Tế kiểm định, an toàn với sức khỏe người dùng.
                         <div class="w-100 justify-content-center text-center mx-0">
-                            <img width="80%" class="pt-3 pb-3" src="../uploads/1.6.jpg" alt="">
+                            <img width="60%" class="pt-3 pb-3" src="../uploads/nhantuong.jpg" alt="">
                         </div>
                         
                     <br> <h5>2. Phun môi Lipstick phủ Collagen TBG</h5> 

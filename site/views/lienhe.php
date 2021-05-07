@@ -1,13 +1,8 @@
 <section>
-<<<<<<< HEAD
-        <div class="container col-11 mt-2">
-            <div class="row">
-                <div class="">
-=======
+
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11">
->>>>>>> 9952d0d06ef81dfadb30da6052c31f92cb98155a
                     <ul itemscope="" class="navleft" itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs">
                         <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                             <i class="fa fa-home" aria-hidden="true"></i>

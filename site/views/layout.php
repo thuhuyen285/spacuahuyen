@@ -21,7 +21,7 @@
 <body>
 
     <!--menu logo search  -->
-    <header class="pl-5 col-12  pr-5 ">
+    <header class="pl-5 col-12  position-fixed pr-5 ">
            
         <nav class="navbar navbar-expand-lg nav-dark   w-100 ">
             <a class="logo mr-5" href="#">

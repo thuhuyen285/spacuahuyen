@@ -59,13 +59,13 @@
                             <div class="ml-4 mb-3">
                                     <p>
                                 Bờ môi đậm giúp bạn có cảm giác tự tin hơn. Đặc biệt là những lúc phải đi gặp đối tác hoặc khách hàng. </p>
-                                <img  class="pb-4" src="<?=PATH_IMG?>1.4.jpg" alt="">
+                                <img width="64%" class="pb-4" src="<?=PATH_IMG?>1.4.jpg" alt="">
                                 <b> Giá dịch vụ: </b> Giá gốc <span  class="span">3.000.000đ</span>  đang giảm còn <span  class="span">2.100.000đ</span> 
                             </div>
                             <h4>1.4. Khử thâm môi Baby Doll </h4>
                             <div class="ml-4 mb-3">
                                 <p>Thâm môi làm cho bạn mất đi vẻ đẹp tự nhiên vốn có của người phụ nữ, làm cho bạn mất ấn tượng trước mặt bạn bè, người yêu. Nó còn khiến cho bạn mất tự tin trong mọi trường hợp. Chúng tôi cam kết khử thâm môi hoàn toàn.
-                                </p> <img class="pb-3" src="<?=PATH_IMG?>1.5.jpg" alt="">
+                                </p> <img  width="64%" class="pb-3" src="<?=PATH_IMG?>1.5.jpg" alt="">
 
                                 <b> Giá dịch vụ: </b> Giá gốc <span  class="span">1.200.000đ</span>  đang giảm còn <span  class="span">840.000đ</span> 
                             </div>
