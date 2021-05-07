@@ -15,6 +15,10 @@
   <!-- end linking -->
   <title>Thẩm mỹ Spa Linh Hương - Admin</title>
 </head>
+<style>
+  .logo{
+  }
+</style>
 <body>
 <!-- start admin -->
 <section id="admin">
@@ -23,9 +27,9 @@
     <!-- start with head -->
     <div class="head">
       <div class="logo">
-        <img src="views/img1/logo.png" alt="">
+        <img src="views/img/logo.jpg" alt="">
       </div>
-      <a href="#" class="btn btn-danger">THẾ GIỚI DI ĐỘNG</a>
+      <a href="#" class="btn btn-danger">ADMIN SPA</a>
     </div>
     <!-- end with head -->
     <!-- start the list -->

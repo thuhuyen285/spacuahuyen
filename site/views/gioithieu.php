@@ -74,7 +74,7 @@
                                         </div>
                                     Nụ cười hài lòng, sự tin tưởng tuyệt đối của khách hàng là thước đo của sự thành công của chúng tôi
                                 <br>Với 3 chi nhánh trên cả nước, Linh Hương Spa tự hào luôn đáp ứng tốt mọi nhu cầu làm đẹp của chị em trên khắp vùng miền Tổ Quốc.
-                               <br> <br> Độ uy tín của TMV Linh hương còn được thể hiện qua nhiều giải thưởng, giấy khen, kỹ niệm chương… do chính phủ và nhiều tổ chức trao tặng.
+                               <br> <br> Độ uy tín của TTTM SPA Linh hương còn được thể hiện qua nhiều giải thưởng, giấy khen, kỹ niệm chương… do chính phủ và nhiều tổ chức trao tặng.
                                 <div class="w-100 justify-content-center text-center mx-0">
                                     <img width="60%" class="pt-3 pb-3" src="../uploads/uytin2.jpg" alt="">
                                 </div>    

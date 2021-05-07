@@ -152,7 +152,10 @@ span {
 .dropdown-menu a:hover {
     color: black;
 }
+.baiviet{
+    margin-top: 110px!important ;
 
+}
 .dropdown-menu a {
     color: rgb(184, 125, 17);
 }
@@ -303,6 +306,13 @@ footer {
         float: left;
         width: 100px !important;
     }
+    h1{
+        font-size: 24px !important;
+    }
+    span{
+        font-size: 14px !important;
+
+    }
     .topnav {}
     .topnav a {
         /* margin-left: 50px; */
@@ -374,12 +384,18 @@ footer {
         float: left;
         width: 100px !important;
     }
-    .topnav {}
+    span{
+        font-size:12px !important;
+
+    }
     .topnav a {
         /* margin-left: 50px; */
     }
     h2 {
         font-size: 18px !important;
+    }
+    h1{
+        font-size: 24px !important;
     }
     .topnav a:not(:first-child) {
         display: none;
@@ -411,7 +427,7 @@ footer {
         display: none;
     }
     section {
-        margin-top: 90px;
+        margin-top: 80px;
     }
     .content img {
         height: auto !important;

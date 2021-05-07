@@ -9,12 +9,12 @@
                             </li>
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                 <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="" title="Thông Tin Doanh Nghiệp">
-                                    <span itemprop="name" class="text-dark">Tin Tức Thẩm Mỹ Viện</span>
+                                    <span itemprop="name" class="text-dark">Tin Tức </span>
                                 </a>
                                 <meta itemprop="position" content="2"> </li>
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                 <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="" title="Liên Hệ">
-                                    <span itemprop="name" class="text-dark"> Bảng Giá Dịch Vụ Làm Đẹp Tại Trung Tâm Thẩm Mỹ SPA Linh Hương</span>
+                                    <span itemprop="name" class="text-dark"> Bảng Giá Dịch Vụ tại Linh Hương</span>
                                 </a>
                                 <meta itemprop="position" content="3">
                             </li>
@@ -24,7 +24,7 @@
                         <h5 class=""><span style="color:#ff0000">► <strong>Giảm 30% cho 100 kh&aacute;ch h&agrave;ng đầu ti&ecirc;n</strong></span></h5>
 
                         <div class="text-left m-auto content d-flex justify-content-center flex-column">
-                            <h5><span style="font-size:18px">Thẩm mỹ spa<strong> Linh Hương</strong> l&agrave; nơi kinh doanh chuy&ecirc;n về dịch vụ l&agrave;m đẹp, nơi đ&acirc;y c&oacute; tẩt cả c&aacute;c dịch vụ như: Chăm s&oacute;c da,massage giảm mỡ,phẫu thuật thẩm mỹ, gội đầu dưỡng sinh, phun xăm phong thuỷ thẩm mỹ.</span></h5>
+                            <h5><span style="font-size:18px">Trung tâm Thẩm mỹ spa<strong> Linh Hương</strong> l&agrave; nơi kinh doanh chuy&ecirc;n về dịch vụ l&agrave;m đẹp, nơi đ&acirc;y c&oacute; tẩt cả c&aacute;c dịch vụ như: Chăm s&oacute;c da,massage giảm mỡ,phẫu thuật thẩm mỹ, gội đầu dưỡng sinh, phun xăm phong thuỷ thẩm mỹ.</span></h5>
 
                             <h2><strong>1.Chi tiết bảng giá dịch vụ phun xăm mày môi </strong></h2>
 

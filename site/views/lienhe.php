@@ -1,8 +1,5 @@
 <section>
-<<<<<<< HEAD
 
-=======
->>>>>>> aac6f01f5443a210e481540689cce04d79d0a24e
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11">

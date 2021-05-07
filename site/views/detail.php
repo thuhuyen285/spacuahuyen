@@ -1,4 +1,4 @@
-<section class="mt-3">
+<section class="mt-3 baiviet">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-11">

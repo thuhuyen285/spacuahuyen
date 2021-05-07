@@ -6,7 +6,7 @@
             <img width="100%" src="../uploads/banner2.jpg" alt="">
         </div>
 
-        <!-- DỊCH VỤ NỔI BẬT THẨM MỸ VIỆN(nhan dep trai)-->
+        <!-- DỊCH VỤ NỔI BẬT THẨM MỸ -->
         <div class="dichvu ">
             <h2 class="text-center mt-5 "> DỊCH VỤ NỔI BẬT TẠI TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG
             </h2>
@@ -55,7 +55,7 @@
 
             <!-- ĐIÊU KHẮC CHÂN MÀY -->
             <div class="dieukhac">
-                <h2 class="text-center mt-5 "> ĐIÊU KHẮC CHÂN MÀY</h2>
+                <h2 class="text-center mt-5 ">DỊCH VỤ ĐIÊU KHẮC CHÂN MÀY</h2>
                 <div class="text-center mb-3"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
 
                 <div class="row">
@@ -76,30 +76,30 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="#" class="btn xemthem mt-4">
+                        <!-- <a href="#" class="btn xemthem mt-4">
                             <i class="fa fa-angle-double-left"></i>
                             <i class="fa fa-angle-double-left"></i> Xem thêm
                             <i class="fa fa-angle-double-right"></i>
                             <i class="fa fa-angle-double-right"></i>
-                        </a>
+                        </a> -->
 
 
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 ">
                         <div class="card dieukhacimg">
-                            <div class="card-body dieukhacimg">
-                                <img width="100%" src="views/assets/img/dk1.jpg" alt="">
+                            <div class="card-body dieukhacimg ">
+                                <img width="100%"  src="views/assets/img/dk1.jpg" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- TIN TỨC NỔI BẬT THẨM MỸ VIỆN -->
+            <!-- TIN TỨC NỔI BẬT THẨM MỸ  -->
             <div class="dichvu ">
                 <h2 class="text-center mt-5 ">
-                    TIN TỨC NỔI BẬT Trung Tâm Thẩm Mỹ SPA Linh Hương
+                    TIN TỨC NỔI BẬT TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG
                 </h2>
                 <div class="text-center"><img width="100px" src="views/assets/img/logonho.png" alt=""></div>
                 <div class="row ">
@@ -134,8 +134,8 @@
                         <div class="card phuntheu p-2">
                             <div class="card-body ">
                                 <p class="card-text doingu">
-                                    Lời đầu tiên,<b> Trung Tâm Thẩm Mỹ SPA Linh Hương </b> xin gửi tới Quý khách hàng lời chào trân trọng, lời chúc sức khỏe và lời cảm ơn sâu sắc nhất. Thành lập từ năm 2006, sau hơn 15 năm đứng vững trên thị trường, thẩm mỹ viện
-                                    Linh Hương hiện đã trở thành một trong những thương hiệu thẩm mỹ viện chăm sóc sắc đẹp hàng đầu, một địa chỉ đáng tin cậy, hội tụ đủ 3 tiêu chí: Công nghệ thẩm mỹ hiện đại, quy tụ đội ngũ bác sĩ thẩm mỹ giỏi, dịch vụ
+                                    Lời đầu tiên,<b> Trung Tâm Thẩm Mỹ SPA Linh Hương </b> xin gửi tới Quý khách hàng lời chào trân trọng, lời chúc sức khỏe và lời cảm ơn sâu sắc nhất. Thành lập từ năm 2006, sau hơn 15 năm đứng vững trên thị trường, thẩm mỹ
+                                    Linh Hương hiện đã trở thành một trong những thương hiệu thẩm mỹ chăm sóc sắc đẹp hàng đầu, một địa chỉ đáng tin cậy, hội tụ đủ 3 tiêu chí: Công nghệ thẩm mỹ hiện đại, quy tụ đội ngũ bác sĩ thẩm mỹ giỏi, dịch vụ
                                     thẩm mỹ hoàn hảo. Trong suốt thời gian qua, Linh Hương luôn là điểm đến chăm sóc sắc đẹp đáng tin cậy của khách hàng.
                                 </p>
                             </div>

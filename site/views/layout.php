@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="views/assets/css/index.css">
     <link rel="shortcut icon" type="image/png" style="border-radius:10px" href="../icon.png"/>
+    
 <style>
     .iconmenu2 i{
     color: rgb(223, 190, 130);
@@ -92,6 +93,14 @@
         
         <footer class="container  p-5 col-12">
         <div class="row col-12 mx-0">
+            <div class="col-lg-4 col-12 mt-3">
+                <div class="card  ft1 border-0 mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">THEO DÕI FANPAGE</h5>
+                        <div class="fb-page" data-href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc" data-tabs="272" data-width="280" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc">Trung Tâm Thẩm Mỹ Spa Linh Hương Cn Bình Dương</a></blockquote></div>            
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-4 col-12">
                 <div class="card ft1 border-0">
                     <div class="card-body ">
@@ -102,11 +111,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-12">
+            <div class="col-lg-4 col-12 mt-3">
                 <div class="card ft1 border-0 mt-4">
                     <div class="card-body">
-                        <h5 class="card-title">ĐỊA CHỈ TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG
-                        </h5>
+                        <h6 class="card-title">ĐỊA CHỈ CHÍNH TRUNG TÂM THẨM MỸ SPA LINH HƯƠNG
+                        </h6>
                         <p class="card-text">37 Nguyễn Văn Tiết - Lái Thiêu- Thuận An - Bình Dương</p>
                         <a>  ► Giờ làm việc toàn hệ thống Linh Hương: <br>
                         
@@ -117,22 +126,17 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-12">
-                <div class="card  ft1 border-0 mt-4">
-                    <div class="card-body">
-                        <h5 class="card-title">THEO DÕI FANPAGE</h5>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0" nonce="9QYjTMZE"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=2844670718991561&autoLogAppEvents=1" nonce="sp4AV95y"></script>
+    
 </body>
 
 </html>
