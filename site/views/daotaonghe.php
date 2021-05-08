@@ -38,8 +38,8 @@
                         <div class="diccosodt text-left">
                             <h2 class="h4"><strong>CỞ SỞ Đ&Agrave;O TẠO NGHỀ LINH HƯƠNG </strong>&nbsp;l&agrave; một&nbsp;<strong>Trung T&acirc;m Dạy Nghề PHUN XĂM THẨM MỸ</strong>&nbsp;v&agrave;&nbsp;<strong>CHĂM S&Oacute;C DA</strong>&nbsp;h&agrave;ng đầu Việt Nam.</h2>
 <br>
-                            <p>Trải qua hơn 20 năm h&igrave;nh th&agrave;nh v&agrave; ph&aacute;t triển lớn mạnh,&nbsp;<strong>Trung Tâm Thẩm Mỹ SPA Linh Hương </strong>&nbsp;đ&atilde; l&agrave; một thương hiệu uy t&iacute;n h&agrave;ng đầu trong ng&agrave;nh thẩm
-                                mỹ v&agrave; lu&ocirc;n đi đầu ti&ecirc;n phong trong xu hướng L&Agrave;M ĐẸP thời thượng hiện nay:<br /> - Hơn&nbsp;<strong>10 chi nh&aacute;nh</strong>&nbsp;trải d&agrave;i tr&ecirc;n khắp cả nước v&agrave; vẫn đang ph&aacute;t
+                            <p>Trải qua hơn 15 năm h&igrave;nh th&agrave;nh v&agrave; ph&aacute;t triển lớn mạnh,&nbsp;<strong>Trung Tâm Thẩm Mỹ SPA Linh Hương </strong>&nbsp;đ&atilde; l&agrave; một thương hiệu uy t&iacute;n h&agrave;ng đầu trong ng&agrave;nh thẩm
+                                mỹ v&agrave; lu&ocirc;n đi đầu ti&ecirc;n phong trong xu hướng L&Agrave;M ĐẸP thời thượng hiện nay:<br /> - Hơn&nbsp;<strong>5 chi nh&aacute;nh</strong>&nbsp;trải d&agrave;i tr&ecirc;n khắp cả nước v&agrave; vẫn đang ph&aacute;t
                                 triển vượt bậc.<br /> -&nbsp;Lượng kh&aacute;ch h&agrave;ng lu&ocirc;n&nbsp;<strong>đ&ocirc;ng</strong>&nbsp;như trẩy hội v&igrave; chất lượng sản phẩm v&agrave; dịch vụ rất tốt.<br /> -&nbsp;Được qu&yacute;&nbsp;<strong>Kh&aacute;ch h&agrave;ng</strong>&nbsp;v&agrave;&nbsp;<strong>học vi&ecirc;n</strong>&nbsp;tr&ecirc;n
                                 khắp cả nước tin tưởng, y&ecirc;u qu&yacute;.<br /> -&nbsp;Đội ngũ&nbsp;<strong>Nh&acirc;n vi&ecirc;n</strong>&nbsp;chuy&ecirc;n nghiệp, tay nghề giỏi.<br /> -&nbsp;Cơ sở hạ tầng&nbsp;<strong>đẳng cấp</strong>, trang thiết
                                 bị m&aacute;y m&oacute;c&nbsp;<strong>hiện đại</strong>.<br />-&nbsp;Lu&ocirc;n&nbsp;

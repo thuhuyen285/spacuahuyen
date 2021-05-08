@@ -76,20 +76,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- <a href="#" class="btn xemthem mt-4">
-                            <i class="fa fa-angle-double-left"></i>
-                            <i class="fa fa-angle-double-left"></i> Xem thêm
-                            <i class="fa fa-angle-double-right"></i>
-                            <i class="fa fa-angle-double-right"></i>
-                        </a> -->
-
 
                     </div>
 
                     <div class="col-sm-6 ">
                         <div class="card dieukhacimg">
                             <div class="card-body dieukhacimg ">
-                                <img width="100%"  src="views/assets/img/dk1.jpg" alt="">
+                                <img width="100%" height="478px"  src="views/assets/img/dk1.jpg" alt="">
                             </div>
                         </div>
                     </div>

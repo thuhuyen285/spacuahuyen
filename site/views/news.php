@@ -19,7 +19,7 @@
                         </li>
                     </ul>
                     <hr>
-                    <h2 class="mb-4 color-main text-center">CƠ SỞ ĐÀO TẠO NGHỀ PHUN XĂM</h2>
+                    <h2 class="mb-4 color-main text-center text-uppercase"><?=$datadm[$_GET['id']]?></h2>
 
                 </div>
             </div>

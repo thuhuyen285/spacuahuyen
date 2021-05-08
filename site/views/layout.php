@@ -22,7 +22,7 @@
 <body>
 
     <!--menu logo search  -->
-    <header class="pl-5 col-12  position-fixed pr-5 ">
+    <header class="pl-5 col-12 position-fixed pr-5 ">
            
         <nav class="navbar navbar-expand-lg nav-dark   w-100 ">
             <a class="logo mr-5" href="#">
@@ -43,7 +43,6 @@
                     <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="<?=ROOT_URL.'/Trang-chu-tham-my-vien-Spa-Linh-Hương'?>">Trang chủ</a>
                     <a class="dropdown-item" href="<?=ROOT_URL.'/gioi-thieu'?>">Trung Tâm Thẩm Mỹ SPA Linh Hương</a>
-                    <a class="dropdown-item" href="<?=ROOT_URL.'/bang-gia'?>">Bảng Giá Dịch Vụ</a>
                     </div>
                 </li>
                 <li class="nav-item mr-3">
@@ -59,13 +58,15 @@
                     <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-3/page-1'?>">Cảm Nhận Khách Hàng</a>
                         <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-2/page-1'?>">Kiến Thức Làm Đẹp</a>
-                        <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-4/page-1'?>">Tin Tức Thẩm Mỹ Viện</a>
+                        <a class="dropdown-item" href="<?=ROOT_URL.'/danh-muc-4/page-1'?>">Tin Tức TT Thẩm Mỹ Spa Linh Hương</a>
                     </div>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="<?=ROOT_URL.'/lien-he'?>">Liên Hệ</a>
                 </li>
-
+                <li class="nav-item mr-3">
+                    <a class="nav-link" href="<?=ROOT_URL.'/bang-gia'?>">Bảng Giá</a>
+                </li>
                 </ul>
                 <form class="form-inline iconmenu2 my-2 my-lg-0">
                     <a class="nav-link" href="https://www.facebook.com/HuongRuby.MasterPhunMayNhanTuongHoc"> 

@@ -194,7 +194,7 @@
                                         ♦ Da trở nên săn chắc, mịn màng hơn<br>
                                         ♦ Da lên tone sáng da tự nhiên<br>
                                         ♦ Loại bỏ các loại mụn cám, mụn đầu đen cứng đầu<br>
-                                        ♦ Loại bỏ tình trạng da kém sắc, khô ráp,..
+                                        ♦ Loại bỏ tình trạng da kém sắc, khô ráp,..<br>
                                         ♦ Cải thiện loại bỏ nếp nhăn, da căng bóng đầy sức sống<br>
                                         ♦ Xua tan những căng thẳng, mệt mỏi<br>
                                     </div>
@@ -240,10 +240,8 @@
                                     </div>
                                     <img class="pt-3 pb-3" src="<?=PATH_IMG?>anhgoidau.jpg" alt="">
                             <h2 class="mt-3"><strong>8.Bảng giá dịch vụ mi –filter botox </strong></h2>
-                            <div class="d-flex mt-3 mb-3">
-                                    <img src="<?=PATH_IMG?>fiiter.PNG" alt="">
-                                    <img width="45%" src="<?=PATH_IMG?>tiemmui.jpg" alt="">
-                                </div>
+                                    <img class="pt-3 pb-3" src="<?=PATH_IMG?>fiiter.PNG" alt="">
+                               
                                 <p>
                                 ♦ Tiêm tạo hình thẩm mỹ cho các bạn đẹp hoàn hảo theo ý muốn chỉ sau 20 phút tiêm - nắn - chỉnh. Bạn sẽ thấy ngay sự khác biệt rõ rệt: môi trên căng đầy đều đặn hài hòa với môi dưới. 
                                 Nền da môi cũng căng ẩm, mượt mà, cải thiện nét quyến rũ gấp bội phần. <br>

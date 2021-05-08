@@ -21,7 +21,7 @@
                     </ul>
                     <hr>
                     <div class="text-center">
-                        <h2 class="mb-2 color-main">ĐỊA CHỈ CÁC CHI NHÁNH THẨM MỸ VIỆN </h2>
+                        <h2 class="mb-2 color-main">ĐỊA CHỈ CÁC CHI NHÁNH TRUNG TÂM THẨM MỸ  </h2>
                         <h3 class="text-primary mt-2">Nơi lựa chọn hàng đầu gửi gắm nhan sắc của sao Việt</h3>
                         <div class="hotline">Hotline: <span>0902035896  </span></div>
                         <div>Website: <span class="text-primary">https://linhuongspa.com</span> | E-mail: huongruby101196@gmail.com </div>
